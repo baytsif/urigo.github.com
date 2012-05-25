@@ -19,12 +19,10 @@
 
 
       <script type='text/javascript'>
-          $(document).ready(function() {
+          $.getJSON('html.json', function(data) {
               $('#page_holder').pagify({
-                  pages: ['categories'],
-                  animation: 'fadeIn',
-                  'default': 'pages',
-                  cache: true
+                  pages: data,
+                  default: 'home'
               });
           });
       </script>

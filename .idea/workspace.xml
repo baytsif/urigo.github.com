@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a2be76c-457d-495e-bdb7-a2455c7b38a2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/default.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/categories.html" afterPath="$PROJECT_DIR$/categories.html" />
     </list>
     <ignored path="Urigo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +72,7 @@
       <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="35" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.6484375">
+            <state line="26" column="13" selection-start="1012" selection-end="1012" vertical-scroll-proportion="-0.875">
               <folding />
             </state>
           </provider>
@@ -465,7 +464,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="35" selection-start="1022" selection-end="1022" vertical-scroll-proportion="0.6484375">
+        <state line="26" column="13" selection-start="1012" selection-end="1012" vertical-scroll-proportion="-0.875">
           <folding />
         </state>
       </provider>
