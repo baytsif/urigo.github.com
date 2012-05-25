@@ -21,9 +21,9 @@
       <script type='text/javascript'>
           $(document).ready(function() {
               $('#page_holder').pagify({
-                  pages: ['blabla/yoyo/ohhhya', 'categories', 'pages'],
+                  pages: ['categories'],
                   animation: 'fadeIn',
-                  'default': 'categories',
+                  'default': 'pages',
                   cache: true
               });
           });
@@ -38,6 +38,14 @@
   </head>
 
   <body>
+
+  <script type="text/javascript">
+      if (typeof jQuery == 'undefined') {
+          alert("not loaded");
+      } else {
+          alert(" jQuery is loaded");
+      }
+  </script>
   {% include root %}
     <div class="navbar">
       <div class="navbar-inner">
@@ -52,12 +60,7 @@
       </div>
     </div>
 
-  ahahahah
   <a href='#categories'>categories</a>
-  <a href='#pages'>pages</a>
-  <a href='#archive'>archive</a>
-  <a href='#blabla/yoyo/ohhhya'>archive</a>
-  <a href='#tags'>tags</a>
     postsId
     {% for post in site.posts %}
     <a href="#{{ post.id }}">{{ post.title }}</a>
