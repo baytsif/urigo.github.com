@@ -51,6 +51,11 @@
       </div>
     </div>
 
+    postsId
+    {% for post in site.posts %}
+    <a href="#{{ post.id }}">{{ post.title }}</a>
+    {% endfor %}
+
     <div class="container">
 
       <div class="content">
