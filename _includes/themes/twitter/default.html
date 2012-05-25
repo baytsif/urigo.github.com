@@ -38,6 +38,7 @@
 
   <body>
 
+  {% include root %}
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container">
@@ -56,10 +57,13 @@
     <a href="#{{ post.id }}">{{ post.title }}</a>
     {% endfor %}
 
+    Holder:
+    <div id='page_holder' />
+
     <div class="container">
 
       <div class="content">
-          <div id='page_holder' />
+
         {{ content }}
       </div>
 
