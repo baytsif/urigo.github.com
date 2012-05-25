@@ -17,16 +17,6 @@
       <script src="{{ HOME_PATH }}/jquery.min.js" type="text/javascript"></script>
       <script src="{{ HOME_PATH }}/pagify.js" type="text/javascript"></script>
 
-<script type='text/javascript'>
-    $.getJSON('html.json', function(data) {
-        $('#page_holder').pagify({
-            pages: data,
-            default: 'home'
-        });
-    });
-
-</script>
-
     <!-- Le fav and touch icons -->
   <!-- Update these with your own images
     <link rel="shortcut icon" href="images/favicon.ico">
@@ -59,6 +49,16 @@
 
     Holder:
     <div id='page_holder' />
+
+  <script type='text/javascript'>
+      $.getJSON('html.json', function(data) {
+          $('#page_holder').pagify({
+              pages: data,
+              default: 'home'
+          });
+      });
+
+  </script>
 
     <div class="container">
 
