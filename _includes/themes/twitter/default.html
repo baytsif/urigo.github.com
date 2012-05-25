@@ -43,6 +43,13 @@
 
   <body>
 
+  <script type="text/javascript">
+      if (typeof jQuery == 'undefined') {
+          alert("not loaded");
+      } else {
+          alert(" jQuery is loaded");
+      }
+  </script>
   {% include root %}
     <div class="navbar">
       <div class="navbar-inner">
