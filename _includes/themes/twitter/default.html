@@ -21,13 +21,9 @@
       <script type='text/javascript'>
           $(document).ready(function() {
               $('#page_holder').pagify({
-                  pages: ['lessons/2011/12/29/jekyll-introduction/',
-                      '/lessons/2011/12/29/jekyll-introduction',
-                      '/lessons/inner/2011/12/15/jekyll-lesson2',
-                  'categories.html',
-                  'pages.html'],
+                  pages: ['categories'],
                   animation: 'fadeIn',
-                  'default': '/lessons/inner/2011/12/15/jekyll-lesson2',
+                  'default': 'pages',
                   cache: true
               });
           });
@@ -64,8 +60,7 @@
       </div>
     </div>
 
-  <a href='#pages.html'>pages.html</a>
-  <a href='#categories.html'>categories.html</a>
+  <a href='#categories'>categories</a>
     postsId
     {% for post in site.posts %}
     <a href="#{{ post.id }}">{{ post.title }}</a>
