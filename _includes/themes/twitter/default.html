@@ -21,7 +21,15 @@
       <script type='text/javascript'>
           $(document).ready(function() {
               $('#page_holder').pagify({
-                  pages: ['categories'],
+                  pages: ['categories',
+                      'pages',
+                  'sitemap',
+                  'archive2',
+                  'blabla/yoyo/ohhhya',
+                  'tags',
+                  'atom',
+                  'lessons/2011/12/29/jekyll-introduction',
+                  'lessons/inner/2011/12/15/jekyll-lesson2'],
                   animation: 'fadeIn',
                   'default': 'pages',
                   cache: true
@@ -63,6 +71,12 @@
   <a href='#categories'>categories</a>
   --------------
   pages
+  <div id="posts">
+  {% for page in site.pages %}
+  '{{ page.url }}',
+  {% endfor %}
+  </div>
+
   {% for page in site.pages %}
   <a href="#{{ page.url }}">{{ page.title }}</a>
   {% endfor %}
