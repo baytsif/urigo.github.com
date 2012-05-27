@@ -21,15 +21,7 @@
       <script type='text/javascript'>
           $(document).ready(function() {
               $('#page_holder').pagify({
-                  pages: ['categories',
-                      'pages',
-                  'sitemap',
-                  'archive2',
-                  'blabla/yoyo/ohhhya',
-                  'tags',
-                  'atom',
-                  'http://urigo.github.com/#/lessons/2011/12/29/jekyll-introduction',
-                  'http://urigo.github.com/#/lessons/inner/2011/12/15/jekyll-lesson2'],
+                  pages: ['categories'],
                   animation: 'fadeIn',
                   'default': 'pages',
                   cache: true
@@ -46,6 +38,14 @@
   </head>
 
   <body>
+
+  <script type="text/javascript">
+      if (typeof jQuery == 'undefined') {
+          alert("not loaded");
+      } else {
+          alert(" jQuery is loaded");
+      }
+  </script>
   {% include root %}
     <div class="navbar">
       <div class="navbar-inner">
@@ -63,14 +63,19 @@
   <a href='#categories'>categories</a>
   --------------
   pages
+  <div id="posts">
+  {% for page in site.pages %}
+  '{{ page.url }}',
+  {% endfor %}
+  </div>
 
   {% for page in site.pages %}
-  <a href="#{{ page.id }}">{{ page.title }}</a>
+  <a href="#{{ page.url }}">{{ page.title }}</a>
   {% endfor %}
 
     postsId
     {% for post in site.posts %}
-    <a href="#{{ post.id }}">{{ post.title }}</a>
+    <a href="#{{ post.url }}">{{ post.title }}</a>
     {% endfor %}
 
     Holder:
