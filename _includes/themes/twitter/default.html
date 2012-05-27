@@ -78,12 +78,12 @@
   </div>
 
   {% for page in site.pages %}
-  <a href="#{{ page.url }}">{{ page.title }}</a>
+  <a href="#{{ page.id }}">{{ page.title }}</a>
   {% endfor %}
 
     postsId
     {% for post in site.posts %}
-    <a href="#{{ post.url }}">{{ post.title }}</a>
+    <a href="#{{ post.id }}">{{ post.title }}</a>
     {% endfor %}
 
     Holder:
