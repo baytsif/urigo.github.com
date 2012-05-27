@@ -46,14 +46,6 @@
   </head>
 
   <body>
-
-  <script type="text/javascript">
-      if (typeof jQuery == 'undefined') {
-          alert("not loaded");
-      } else {
-          alert(" jQuery is loaded");
-      }
-  </script>
   {% include root %}
     <div class="navbar">
       <div class="navbar-inner">
@@ -73,12 +65,12 @@
   pages
 
   {% for page in site.pages %}
-  <a href="{{ root }}#{{ page.id }}">{{ page.title }}</a>
+  <a href="#{{ page.id }}">{{ page.title }}</a>
   {% endfor %}
 
     postsId
     {% for post in site.posts %}
-    <a href="{{ root }}#{{ post.id }}">{{ post.title }}</a>
+    <a href="#{{ post.id }}">{{ post.title }}</a>
     {% endfor %}
 
     Holder:
