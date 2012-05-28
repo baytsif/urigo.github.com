@@ -876,6 +876,7 @@ function init(){
     });
     //load json data
     st.loadJSON(json);
+    alert("ahhh!");
     //compute node positions and layout
     st.compute();
     //optional: make a translation of the tree
