@@ -818,7 +818,7 @@ function init(){
             label.onclick = function(){
                 if(normal.checked) {
                     st.onClick(node.id);
-                    window.location.href = node.id;
+                    window.location.href = node.name;
                 } else {
                     st.setRoot(node.id, 'animate');
                 }
