@@ -1,31 +1,27 @@
-<link href='http://thejit.org/static/v20/Jit/Examples/css/base.css' rel='stylesheet' type='text/css'/>
-<link href='http://thejit.org/static/v20/Jit/Examples/css/Spacetree.css' rel='stylesheet' type='text/css'/>
-</head>
-
-
-
-<!-- JIT Library File -->
-<script language='javascript' src='http://thejit.org/static/v20/Jit/jit.js' type='text/javascript'/>
-
-<!-- Example File -->
-<script>
+/**
+ * Created with JetBrains PhpStorm.
+ * User: urigoldshtein
+ * Date: 5/28/12
+ * Time: 9:26 PM
+ * To change this template use File | Settings | File Templates.
+ */
 
 var labelType, useGradients, nativeTextSupport, animate;
 
-        (function() {
-            var ua = navigator.userAgent,
-                    iStuff = ua.match(/iPhone/i) || ua.match(/iPad/i),
-                    typeOfCanvas = typeof HTMLCanvasElement,
-                    nativeCanvasSupport = (typeOfCanvas == 'object' || typeOfCanvas == 'function'),
-                    textSupport = nativeCanvasSupport
-                            && (typeof document.createElement('canvas').getContext('2d').fillText == 'function');
-            //I'm setting this based on the fact that ExCanvas provides text support for IE
-            //and that as of today iPhone/iPad current text support is lame
-            labelType = (!nativeCanvasSupport || (textSupport && !iStuff))? 'Native' : 'HTML';
-            nativeTextSupport = labelType == 'Native';
-            useGradients = nativeCanvasSupport;
-            animate = !(iStuff || !nativeCanvasSupport);
-        })();
+(function() {
+    var ua = navigator.userAgent,
+        iStuff = ua.match(/iPhone/i) || ua.match(/iPad/i),
+        typeOfCanvas = typeof HTMLCanvasElement,
+        nativeCanvasSupport = (typeOfCanvas == 'object' || typeOfCanvas == 'function'),
+        textSupport = nativeCanvasSupport
+            && (typeof document.createElement('canvas').getContext('2d').fillText == 'function');
+    //I'm setting this based on the fact that ExCanvas provides text support for IE
+    //and that as of today iPhone/iPad current text support is lame
+    labelType = (!nativeCanvasSupport || (textSupport && !iStuff))? 'Native' : 'HTML';
+    nativeTextSupport = labelType == 'Native';
+    useGradients = nativeCanvasSupport;
+    animate = !(iStuff || !nativeCanvasSupport);
+})();
 
 var Log = {
     elem: false,
@@ -889,10 +885,10 @@ function init(){
     //end
     //Add event handlers to switch spacetree orientation.
     var top = $jit.id('r-top'),
-            left = $jit.id('r-left'),
-            bottom = $jit.id('r-bottom'),
-            right = $jit.id('r-right'),
-            normal = $jit.id('s-normal');
+        left = $jit.id('r-left'),
+        bottom = $jit.id('r-bottom'),
+        right = $jit.id('r-right'),
+        normal = $jit.id('s-normal');
 
 
     function changeHandler() {
@@ -910,103 +906,3 @@ function init(){
     //end
 
 }
-
-</script>
-<body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
-
-
-
-<body expr:class='&quot;loading&quot; + data:blog.mobileClass'>
-<div id='container'>
-
-    <div id='left-container'>
-
-
-
-        <div class='text'>
-            <h4>
-                Tree Animation
-            </h4>
-
-            A static JSON Tree structure is used as input for this animation.<br/><br/>
-            <b>Click</b> on a node to select it.<br/><br/>
-            You can <b>select the tree orientation</b> by changing the select box in the right column.<br/><br/>
-            You can <b>change the selection mode</b> from <em>Normal</em> selection (i.e. center the selected node) to
-            <em>Set as Root</em>.<br/><br/>
-            <b>Drag and Drop the canvas</b> to do some panning.<br/><br/>
-            Leaves color depend on the number of children they actually have.
-
-        </div>
-
-        <div id='id-list'/>
-
-
-        <div style='text-align:center;'><a href='example1.js'>See the Example Code</a></div>
-    </div>
-
-    <div id='center-container'>
-        <div id='infovis'/>
-    </div>
-
-    <div id='right-container'>
-
-        <h4>Tree Orientation</h4>
-        <table>
-            <tr>
-                <td>
-                    <label for='r-top'>Top </label>
-                </td>
-                <td>
-                    <input checked='checked' id='r-top' name='orientation' type='radio' value='top'/>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for='r-left'>Left </label>
-                </td>
-                <td>
-                    <input id='r-left' name='orientation' type='radio' value='left'/>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for='r-bottom'>Bottom </label>
-                </td>
-                <td>
-                    <input id='r-bottom' name='orientation' type='radio' value='bottom'/>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for='r-right'>Right </label>
-                </td>
-                <td>
-                    <input id='r-right' name='orientation' type='radio' value='right'/>
-                </td>
-            </tr>
-        </table>
-
-        <h4>Selection Mode</h4>
-        <table>
-            <tr>
-                <td>
-                    <label for='s-normal'>Normal </label>
-                </td>
-                <td>
-                    <input checked='checked' id='s-normal' name='selection' type='radio' value='normal'/>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for='s-root'>Set as Root </label>
-                </td>
-                <td>
-                    <input id='s-root' name='selection' type='radio' value='root'/>
-                </td>
-            </tr>
-        </table>
-
-    </div>
-
-    <div id='log'/>
-</div>
