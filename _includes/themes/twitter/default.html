@@ -45,7 +45,7 @@
   <body onload="init();">
   <div id='container' style="width: 100%">
 
-      <div id='left-container'>
+      <div>
 
 
 
@@ -136,33 +136,33 @@
 
       <div id='log'/>
   </div>
+
+
+  <div>
       <a href='#/categories'>categories</a>
       <a href='#/pages'>pages</a>
       --------------
       pages
       <div id="posts">
-      {% for page in site.pages %}
-      '{{ page.url }}',
-      {% endfor %}
+          {% for page in site.pages %}
+          '{{ page.url }}',
+          {% endfor %}
       </div>
 
       {% for page in site.pages %}
       <a href="#{{ page.url }}">{{ page.title }}</a>
       {% endfor %}
 
-        postsId
-        {% for post in site.posts %}
-        <a href="#{{ post.url }}">{{ post.title }}</a>
-        {% endfor %}
+      postsId
+      {% for post in site.posts %}
+      <a href="#{{ post.url }}">{{ post.title }}</a>
+      {% endfor %}
 
-        Holder angular:
+      Holder angular:
       <div ng-view></div>
 
 
-        {% include JB/analytics %}
-
-  <div>
-
+      {% include JB/analytics %}
   </div>
 
 
