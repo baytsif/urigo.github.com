@@ -42,8 +42,8 @@ function init(){
         data: {},
         children: [{
             id: "node13",
-            name: "#/categories",
-            data: {},
+            name: "categories",
+            data: {'url':'#/categories'},
             children: [{
                 id: "node24",
                 name: "2.4",
@@ -152,8 +152,8 @@ function init(){
             }]
         }, {
             id: "node125",
-            name: "#/pages",
-            data: {},
+            name: "pages",
+            data: {'url':'#/pages'},
             children: [{
                 id: "node226",
                 name: "2.26",
@@ -818,7 +818,7 @@ function init(){
             label.onclick = function(){
                 if(normal.checked) {
                     st.onClick(node.id);
-                    window.location.href = node.name;
+                    window.location.href = node.data.url;
                 } else {
                     st.setRoot(node.id, 'animate');
                 }
