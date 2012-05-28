@@ -26,6 +26,10 @@
                       when('/pages', {template:  '/pages.html', controller: pagesCtrl}).
                       otherwise({redirectTo: '/categories'});
           }]);
+
+          function pagesCtrl($scope) {
+              $scope.yes = "yes!";
+          }
       </script>
   </head>
 
@@ -65,6 +69,11 @@
 
     Holder angular:
   <div ng-view></div>
+
+
+  <input type="text" ng-model="yourName" placeholder="Enter a name here">
+  <hr>
+  <h1>Hello {{yourName}}!</h1>
 
     {% include JB/analytics %}
   </body>
