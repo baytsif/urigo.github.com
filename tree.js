@@ -42,7 +42,7 @@ function init(){
         data: {},
         children: [{
             id: "node13",
-            name: "1.3",
+            name: "#/categories",
             data: {},
             children: [{
                 id: "node24",
@@ -152,7 +152,7 @@ function init(){
             }]
         }, {
             id: "node125",
-            name: "1.25",
+            name: "#/pages",
             data: {},
             children: [{
                 id: "node226",
@@ -818,6 +818,7 @@ function init(){
             label.onclick = function(){
                 if(normal.checked) {
                     st.onClick(node.id);
+                    window.location.href = node.id;
                 } else {
                     st.setRoot(node.id, 'animate');
                 }
