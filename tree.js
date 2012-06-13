@@ -60,12 +60,12 @@ function init(){
                     }]
                 }, {
                     id: "node37",
-                    name: "3.7",
-                    data: {},
+                    name: "Professionalism_and_education",
+                    data: {'url':'Professionalism_and_education'},
                     children: [{
                         id: "node48",
-                        name: "4.8",
-                        data: {},
+                        name: "Professionalism_and_education inner",
+                        data: {'url':'Professionalism_and_education/Professionalism_and_education'},
                         children: []
                     }, {
                         id: "node49",
