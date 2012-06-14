@@ -37,7 +37,7 @@ a {
 #left-container,
 #right-container,
 #center-container {
-    height:960px;
+    height:600px;
     position:absolute;
     top:0;
 }
