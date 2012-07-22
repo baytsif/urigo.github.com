@@ -50,7 +50,7 @@ function init(){
                 data: {},
                 children: [{
                     id: "node35",
-                    name: "Professionalism_and_education inner",
+                    name: "nothing",
                     data: {'url':'Professionalism_and_education/Professionalism_and_education'},
                     children: [{
                         id: "node46",
