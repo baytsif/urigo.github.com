@@ -37,17 +37,17 @@ var Log = {
 function init(){
     //init data
     var json = {
-        id: "node02",
-        name: "0.2",
+        id: "node01",
+        name: "Life",
         data: {},
         children: [{
-            id: "node13",
-            name: "categories",
-            data: {'url':'#/categories'},
+            id: "node11",
+            name: "Professionalism_and_education",
+            data: {'url':'#/Professionalism_and_education'},
             children: [{
-                id: "node24",
-                name: "2.4",
-                data: {},
+                id: "node21",
+                name: "Computers",
+                data: {'url':'#/Professionalism_and_education/Computers'},
                 children: [{
                     id: "node35",
                     name: "nothing",
