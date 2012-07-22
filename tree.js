@@ -65,7 +65,7 @@ function init(){
                     children: [{
                         id: "node48",
                         name: "Professionalism_and_education inner",
-                        data: {'url':'Professionalism_and_education/Professionalism_and_education'},
+                        data: {'url':'#/Professionalism_and_education/Professionalism_and_education'},
                         children: []
                     }, {
                         id: "node49",
