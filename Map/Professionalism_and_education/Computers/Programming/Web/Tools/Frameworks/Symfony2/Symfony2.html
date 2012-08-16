@@ -1,22 +1,43 @@
-Start with the main symfony site.
-The getting started and then the book:
-http://symfony.com/
-
-Then use this great tutorial for writing a blog from scratch in SYmfony2:
-http://tutorial.symblog.co.uk/
-
-
-Important command for deploying and working with assets:
-bin/vendors install
-bin/vendors install --reinstall
-vendors install
-cache:warmup - יוצר את כל ה cache
-cache:clear
-Assetic:dump
-assets:install web
-assets:install --symlink web
-Production in computer (assetic dump)
-mac -
-        group:_www
-
-
+<html>
+<head>
+    <title></title>
+    <style id="GRstyle" type="text/css">
+        .GRcorrect, .GRSpellingCorrect, .GRspelling { background : url(data:image/gif;base64,R0lGODlhBwADAIABAIDgAP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjRERjM3NTA2RUI1NkUxMTE5NzhCOUUxNDU5NjcxMzdBIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjE2MUVERTNDNkM1ODExRTFBNjhBQzUwQTY5MEEzRDQzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjE2MUVERTNCNkM1ODExRTFBNjhBQzUwQTY5MEEzRDQzIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgV2luZG93cyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjkxQ0M2RDU4NTc2Q0UxMTE4MUEzREQyNDI0RUIyOTFDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjRERjM3NTA2RUI1NkUxMTE5NzhCOUUxNDU5NjcxMzdBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAQAAAQAsAAAAAAcAAwAAAgaEHXGomwUAOw==) left bottom repeat-x !important; padding-bottom : 2px !important; text-decoration : none !important ; position : relative; } .GRline { background : url(data:image/gif;base64,R0lGODlhBwADAIABAIDgAP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjRERjM3NTA2RUI1NkUxMTE5NzhCOUUxNDU5NjcxMzdBIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjE2MUVERTNDNkM1ODExRTFBNjhBQzUwQTY5MEEzRDQzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjE2MUVERTNCNkM1ODExRTFBNjhBQzUwQTY5MEEzRDQzIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgV2luZG93cyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjkxQ0M2RDU4NTc2Q0UxMTE4MUEzREQyNDI0RUIyOTFDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjRERjM3NTA2RUI1NkUxMTE5NzhCOUUxNDU5NjcxMzdBIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAQAAAQAsAAAAAAcAAwAAAgaEHXGomwUAOw==) left bottom repeat-x !important; height : 2px ; position : absolute; bottom : 2px; left: 0px; right: 0px; } .GRnoMark { background : transparent; }  .GRwrapper{ position: absolute; overflow: hidden; margin: 0px; padding: 0px; border: 0px solid transparent } .GRcontour { position : absolute; margin: 0px; }  .GRrichText { margin : 0px; border-width: 0px; border-color: transparent; display: block; color: transparent; -webkit-text-fill-color: transparent; overflow: hidden; white-space: pre-wrap;}  .GRinputWrapper .GRrichText {position: absolute; top: 50%;}  .GRtextareaWrapper .GRrichText {}  #GRmenuList {border-right:2px solid #8ed231; border-left:2px solid #8ed231; width:108px; float:left; padding:0 8px; position:relative; background:#fff; box-sizing:content-box;} #GRmenuList ul {float:left; list-style:none; margin:-1px 0 0 0; padding:0; position:relative; z-index:1;} #GRmenuList ul li {font:12px/18px tahoma; color:#484848; cursor:pointer; float:left; clear:left; white-space : nowrap;} #GRmenuList ul li:first-child {font-weight:bold;} #GRmenuList ul li:hover {color:#000;} #GRtop {border-top:2px solid #8ed231; top:-7px;} #GRbottom {border-bottom:2px solid #8ed231; bottom:-6px;} .GRcorner_cnt {width:112px; height:7px; position:absolute; left:6px; background:#fff;} #GRcontact {display:inline-block; float:left; width:100%; height:19px; font:11px/18px tahoma; color:#fff; text-decoration:none; text-align:center; background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAmCAIAAACK3mZQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEtJREFUeNpcjNEJwCAMBUXcrHTILtCR3KIbNPcaiVb0IxyBe5euemaEnzrJxqTJgji1MbzifwHS/Rx/pzmguR89Ri/aLyx9wv0EGACZDG7y57/u4wAAAABJRU5ErkJggg==") left top; position:relative; z-index:1; bottom:-4px;} #GRcontact:hover {background-position:left bottom;} #GRcontact strong {font-size:12px; color:#fff;} .GRcorner {display:block; background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAcCAYAAABsxO8nAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAg9JREFUeNrMlc8rRFEUx899973xPGYYMZGFBZrkR8gGUVI2CknJQhFlbWWh/AnYiShFSomQsrBjZWE0k4WUYiEbycKPxsx7zhlzzZ3X+PGmWTj1nXfe/fF533vPe3PZbLABbFGPGkC1oZona89c1DgXagzj5QR1jNrC9pA8SbFBllEB1DSqHaVJfZR3oGZQQQQvyhOZ5GgX1cOZBjUF/VDp6YQSow5UxcWoM2KGrbuXc7h6OoLQ4zZYlknNO+isXwaRk7FczQe9ZfNQpPsTT8Kgq4Uh2u5fL2D/ZhKeIw90u4SwCQLRngTIyVD5OhTqFUlrTQUSsM3rEeGsmvZokDJajh3yUxRnV0ONt0/cDivx6oA/rwucRlV+t0jbVPxppezgduq78db3HV9dtarIzM+1OgoJBBLIAkgDlQJk/jNQ1EwTpGTIkZIZR2iI20FWNC2QlglHTMolkHNHn58zsy8tXUc8U44SoHfaMyq/049ESexSmEAX9IfPmAWRqLPlcZWL9FKNnwz1usbh7T3iCKRrLpEe04u5Rlmu7gKusNgb/hfR2Jysr0Nmg0CnqBVarc9txAZQBX8S5wx8HkPs0AqdceJTGUcdqlyB0nw3eA0dVCyJiS+pLBUfUmBkQ2meG/PY1D2EjCeVH6M75oyxES8OJv0SqwgZTXXSUsmoo4WAVIkUk+mYXkA1yRCKDwEGAFCU40/9Q//uAAAAAElFTkSuQmCC"); position:absolute;} .GRcorner.GRmenu_tl {width:8px; height:7px; top:-2px; left:-8px; background-position:0 0;} .GRcorner.GRmenu_tr {width:8px; height:7px; top:-2px; right:-8px; background-position:-10px 0;} .GRcorner.GRmenu_bl {width:10px; height:21px; bottom:-2px; left:-8px; background-position:0 -7px;} .GRcorner.GRmenu_br  {width:10px; height:21px; bottom:-2px; right:-8px; background-position:-8px -7px;} .GRcorner.GRmenu_bl.hover {background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAYAAABLy77vAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAATRJREFUeNpi7Ltk+J8BCCSkhRhIBf///Wd4+fw9iPmJBSb47/9/0g1C0oNk0D/SDWLAYtBfcgzC6qJ/VPLa3/9/qWTQP3K8xkCdMGLAatA/qhn0d2BdxMzARCuDyIh+xv8II0DkbyBm/UOGixj/M8KYv0AGXQViAwagg/4ykmYYy39mGPMmyKAjIINY/zIz/GL6TZJBHP9YYczDoJBaDGKx/2cDOxWUMInBILUgPVCwjKlQ99wpIGMuyLf8/7gZmP4xAjPwP7wYpAakFhpCc4FmXGaEZbz+y0bbgZQHqIz5yvCD4ev/Hwx/GFBjkhUYN1yM7AzcDBxAQ8DGbAIa4o8S/UDgDXEZYwIPAycDDyMnoSBaADQkERGDaEUs0GWWQCoZiG2AWB1N82Vo5IC8cxZZAiDAAOA+uLs5RgYbAAAAAElFTkSuQmCC") 0 0;} .GRcorner.GRmenu_br.hover {background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAYAAABLy77vAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAATRJREFUeNpi7Ltk+J8BCCSkhRhIBf///Wd4+fw9iPmJBSb47/9/0g1C0oNk0D/SDWLAYtBfcgzC6qJ/VPLa3/9/qWTQP3K8xkCdMGLAatA/qhn0d2BdxMzARCuDyIh+xv8II0DkbyBm/UOGixj/M8KYv0AGXQViAwagg/4ykmYYy39mGPMmyKAjIINY/zIz/GL6TZJBHP9YYczDoJBaDGKx/2cDOxWUMInBILUgPVCwjKlQ99wpIGMuyLf8/7gZmP4xAjPwP7wYpAakFhpCc4FmXGaEZbz+y0bbgZQHqIz5yvCD4ev/Hwx/GFBjkhUYN1yM7AzcDBxAQ8DGbAIa4o8S/UDgDXEZYwIPAycDDyMnoSBaADQkERGDaEUs0GWWQCoZiG2AWB1N82Vo5IC8cxZZAiDAAOA+uLs5RgYbAAAAAElFTkSuQmCC") -8px 0;} #GRmenuList #GRseparator{background:#e5e5e5; margin:3px 0; width:100%; height:1px; cursor:default;} #GRmenuList #GRignore {width:31px; height:15px; background:url("data:image/gif;base64,R0lGODlhHwAeAMQAAJiYmNjY2BEREaamptLS0oeHh+3t7fj4+Lq6uuXl5dzc3PHx8b+/v1VVVXd3d8zMzDMzM7Ozs0RERN/f37m5uampqevr68vLyyIiIq2trcbGxqCgoGZmZgAAAP7+/gAAACH5BAAAAAAALAAAAAAfAB4AAAX/oPZ4ZGmeaOpljOq+ZKbBNCrXeDynCbW4iV8iYbp5CBrNYjHJbAgkS4A01Wwej82zdGMMIpuAdXALDAaMxIaylTEypYhmEh6ErUh4hEHYLLQUMRksHnxJAWtOAV4HBAMHMg+PTkRHGwwLDxkHGhELGQN0AXIeagkadjOoByV9GwNEAVAHrBkBrFQ/D1AeC1MmUrgkvh4HA785KpATpskvfQOBzi8Tt9MoHA7XLxgN2y4YHN8q4eMp5SkIEgouCOwICCboBRwcCgoVGB0FJBcAJP84dHDgoMO+EuUaCIDQAYBAAeUACBDQAEEHCQfDNcBQAgKHCg0FNBRIjyOEBgU6ZCgwKIEEhpfeUNYDcFEfAIUGCggwEM7BTn3xPKRsoMABBgMcICjAIAAkAI8eLCLgIFIcVQMlUnYQEA8APwNYMQDACpCdA34eFPwz4Y8sCbUeDAhYa45nBanmsm5tmbdEhbF5QwAAOw==") 0 0; overflow:hidden; text-indent:-999px;} #GRmenuList #GRignore:hover {background-position:0 -15px;} #GRmenuMask {z-index:2147483647; position:fixed; top:0px; left:0px; width:100%; height:100%; background:url("data:image/gif;base64,R0lGODlhAgACAIAAAAAAAAAAACH5BAEAAAAALAAAAAACAAIAAAIChFEAOw==");}		</style>
+</head>
+<body grdoc="true" greditor="true" grstyle="true">
+<p>
+    Start with the main <a href="http://symfony.com/">Symfony site</a>.</p>
+<p>
+    They have great documentation:</p>
+<ol>
+    <li>
+        Symfony in 5 minutes</li>
+    <li>
+        Get started with Symfony</li>
+    <li>
+        And then &quot;<a href="http://symfony.com/doc/current/book/index.html">The book</a>&quot;</li>
+</ol>
+<p>
+    After this, go and do the <a href="http://tutorial.symblog.co.uk/">best Symfony tutorial&nbsp;ever</a>!</p>
+<p>
+    &nbsp;</p>
+<p>
+    <strong><u>Important commands for deploying and working with assets</u></strong>:</p>
+<p>
+    bin/vendors install</p>
+<p>
+    bin/vendors install --reinstall</p>
+<p>
+    vendors install cache:warmup - יוצר את כל ה</p>
+<p>
+    cache cache:clear</p>
+<p>
+    Assetic:dump&nbsp;assets:install</p>
+<p>
+    web assets:install --symlink</p>
+<p>
+    web Production in computer (assetic dump)</p>
+<p>
+    mac - group:_www</p>
+</body>
+</html>
