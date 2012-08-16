@@ -1,0 +1,95 @@
+https://developers.google.com/speed/
+
+        xDebug
+        Permissions to apache
+        PhpStorm to read the data
+
+Activate ApcClassLoader in Symfony2
+http://php.net/manual/en/book.apc.php
+
+http://curltable.the-yard.net/blog/install-apc
+
+<strong>Client</strong>
+Loading Javascript just before </body> so the page loads before for more responsivness
+Google CDN
+
+        Guzzle Send HTTP requests in parallel
+
+        Simplest way to check a function - http://www.tipsntutorials.com/tips/PHP/74/
+
+http://www.crockford.com/javascript/jsmin.html
+
+        Apache mod_deflate
+
+
+This is an important command that might help you with load tests:
+ab [-n (number_of_request) [-p file to post] http://some.uri.com/to.test
+
+It sends multiple requests in parallel and measures the results. You can use it now...
+
+https://github.com/mrclay/minify
+
+http://www.symfony-project.org/plugins/sfMinifyPlugin
+
+# Combine and minify JavaScript and CSS with Minify.
+RewriteRule ^(.*\.(css|js))$ ../plugins/sfMinifyPlugin/sfMinifyPlugin.php?f=/$1 [L,NC]
+
+http://www.netmagazine.com/tutorials/optimise-your-javascript
+
+
+
+http://pecl.php.net/package/xhprof
+
+Something is really weird in my server configuration,
+Can't find the bottleneck at the moment, One request takes half a second maybe less, there is no load in the DB or in the Cache,
+I think the problem is in the session management but I can't put my finger on it.
+
+Attached are some stats:
+
+Server Software:        Apache/2.2.20
+Server Hostname:        api.binkfs.com
+Server Port:            443
+SSL/TLS Protocol:       TLSv1/SSLv3,DHE-RSA-AES256-SHA,2048,256
+
+Document Path:          /category/total_expenses?access_token=b8f0a72ba6e73bb19373debec5fb987b3b670342
+Document Length:        11 bytes
+
+Concurrency Level:      10
+Time taken for tests:   32.060 seconds
+Complete requests:      100
+Failed requests:        1
+(Connect: 0, Receive: 0, Length: 1, Exceptions: 0)
+Write errors:           0
+Total transferred:      39600 bytes
+HTML transferred:       1089 bytes
+Requests per second:    3.12 [#/sec] (mean)
+Time per request:       3206.012 [ms] (mean)
+Time per request:       320.601 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.21 [Kbytes/sec] received
+
+Connection Times (ms)
+min  mean[+/-sd] median   max
+Connect:      355  430 117.3    380     962
+Processing:  1081 2713 906.9   2745    5108
+Waiting:        0 2695 941.4   2744    5108
+Total:       1451 3143 921.4   3132    5625
+
+Percentage of the requests served within a certain time (ms)
+50%   3132
+66%   3460
+75%   3824
+80%   3920
+90%   4332
+95%   4796
+98%   5353
+99%   5625
+100%   5625 (longest request)
+
+
+
+
+
+
+
+
+
