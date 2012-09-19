@@ -41,3 +41,8 @@
     mac - group:_www</p>
 </body>
 </html>
+
+sudo php app/console assets:install web
+sudo php app/console assets:install web/ --symlink
+sudo php app/console assetic:dump --env=prod --no-debug
+php app/console cache:clear
