@@ -171,9 +171,9 @@
 
       <script type="text/javascript">
 
-          var margin = {top: 120, right: 20, bottom: 120, left: 20},
-                  width = 800 - margin.right - margin.left,
-                  height = 1280 - margin.top - margin.bottom,
+          var margin = {top: 20, right: 120, bottom: 20, left: 120},
+                  width = 1280 - margin.right - margin.left,
+                  height = 800 - margin.top - margin.bottom,
                   i = 0,
                   duration = 500,
                   root;
@@ -192,8 +192,8 @@
 
           d3.json("flare.json", function(json) {
               root = json;
-              root.x0 = 0;
-              root.y0 = height / 2;
+              root.x0 = height / 2;
+              root.y0 = 0;
 
               function collapse(d) {
                   if (d.children) {
@@ -213,7 +213,7 @@
               var nodes = tree.nodes(root).reverse();
 
               // Normalize for fixed-depth.
-              nodes.forEach(function(d) { d.x = d.depth * 180; });
+              nodes.forEach(function(d) { d.y = d.depth * 180; });
 
               // Update the nodes…
               var node = vis.selectAll("g.node")
