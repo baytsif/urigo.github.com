@@ -92,7 +92,8 @@
    ]
   },
   {
-   "name": "#/Professionalism_and_education/Computers",
+   "name": "Computers",
+   "url": "#/Professionalism_and_education/Computers",
    "children": [
     {"name": "FlareVis", "size": 4116}
    ]
