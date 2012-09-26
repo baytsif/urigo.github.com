@@ -789,8 +789,8 @@ function init(){
         //set overridable=true for styling individual
         //nodes or edges
         Node: {
-            height: 20,
-            width: 60,
+            height: 40,
+            width: 120,
             type: 'rectangle',
             color: '#aaa',
             overridable: true
