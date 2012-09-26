@@ -793,9 +793,7 @@ function init(){
             width: 90,
             type: 'rectangle',
             color: '#aaa',
-            overridable: true,
-            overflow:'hidden',
-            display: 'inline-block'
+            overridable: true
         },
 
         Edge: {
@@ -827,13 +825,15 @@ function init(){
             };
             //set label styles
             var style = label.style;
-            style.width = 60 + 'px';
-            style.height = 17 + 'px';
+            style.width = 80 + 'px';
+            style.height = 36 + 'px';
             style.cursor = 'pointer';
             style.color = '#333';
             style.fontSize = '0.8em';
             style.textAlign= 'center';
             style.paddingTop = '3px';
+            style.overflow = 'hidden';
+            style.display = 'inline-block';
         },
 
         //This method is called right before plotting
