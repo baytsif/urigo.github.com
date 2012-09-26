@@ -790,7 +790,7 @@ function init(){
         //nodes or edges
         Node: {
             height: 40,
-            width: 120,
+            width: 90,
             type: 'rectangle',
             color: '#aaa',
             overridable: true
