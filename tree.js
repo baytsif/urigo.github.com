@@ -826,7 +826,7 @@ function init(){
             //set label styles
             var style = label.style;
             style.width = 80 + 'px';
-            style.height = 36 + 'px';
+            style.height = 40 + 'px';
             style.cursor = 'pointer';
             style.color = '#333';
             style.fontSize = '0.8em';
