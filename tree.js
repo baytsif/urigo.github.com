@@ -832,7 +832,7 @@ function init(){
             style.fontSize = '0.8em';
             style.textAlign= 'center';
             style.paddingTop = '3px';
-            //style.overflow = 'hidden';
+            style.overflow = 'auto';
             style.display = 'inline-block';
         },
 
