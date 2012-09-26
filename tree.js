@@ -825,15 +825,15 @@ function init(){
             };
             //set label styles
             var style = label.style;
+            style.display = '';
             style.width = 80 + 'px';
             style.height = 40 + 'px';
             style.cursor = 'pointer';
             style.color = '#333';
             style.fontSize = '0.8em';
-            style.textAlign= 'center';
-            style.paddingTop = '3px';
-            style.overflow = 'auto';
-            style.display = 'inline-block';
+            //style.textAlign= 'center';
+            //style.paddingTop = '3px';
+            //style.overflow = 'auto';
         },
 
         //This method is called right before plotting
