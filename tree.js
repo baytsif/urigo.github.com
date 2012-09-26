@@ -794,7 +794,8 @@ function init(){
             type: 'rectangle',
             color: '#aaa',
             overridable: true,
-            overflow:'hidden'
+            overflow:'hidden',
+            display: 'inline-block'
         },
 
         Edge: {
