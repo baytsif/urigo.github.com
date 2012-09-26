@@ -24,7 +24,6 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
     <script src="http://code.angularjs.org/angular-1.0.0rc10.min.js"></script>
     <script src="http://code.angularjs.org/angular-resource-1.0.0rc10.min.js"></script>
-    <script src="http://d3js.org/d3.v2.min.js"></script>
 
     <script type="text/javascript" src="tree.js"></script>
 
@@ -116,12 +115,7 @@
           <div id='log'/>
       </div>
 
-
       <div>
-          <a href='#/categories'>categories</a>
-          <a href='#/pages'>pages</a>
-          <a href='#/Time/Methology/archive2'>Inner</a>
-          --------------
           pages
           <div id="posts">
               {% for page in site.pages %}
@@ -138,15 +132,11 @@
           <a href="#{{ post.url }}">{{ post.title }}</a>
           {% endfor %}
 
-          Holder angular:
           <div ng-view></div>
 
 
           {% include JB/analytics %}
       </div>
-  <script>
-      d3.select("body").append("p").text("New paragraph!");
-  </script>
 
       <script type="text/javascript">
 
