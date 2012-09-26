@@ -831,9 +831,9 @@ function init(){
             style.cursor = 'pointer';
             style.color = '#333';
             style.fontSize = '0.8em';
-            //style.textAlign= 'center';
-            //style.paddingTop = '3px';
-            //style.overflow = 'auto';
+            style.textAlign= 'center';
+            style.paddingTop = '3px';
+            style.overflow = 'auto';
         },
 
         //This method is called right before plotting
