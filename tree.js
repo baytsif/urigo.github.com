@@ -779,7 +779,7 @@ function init(){
         //set animation transition type
         transition: $jit.Trans.Quart.easeInOut,
         //set distance between node and its children
-        levelDistance: 50,
+        levelDistance: 30,
         //enable panning
         Navigation: {
             enable:true,
