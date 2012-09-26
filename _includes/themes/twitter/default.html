@@ -129,8 +129,12 @@
 
           postsId
           {% for post in site.posts %}
+          {{post.url}}
+          -------
           <a href="#{{ post.url }}">{{ post.title }}</a>
+          ---
           {{post}}
+          ----
           POST???
           {% endfor %}
 
