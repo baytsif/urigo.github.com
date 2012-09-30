@@ -31,7 +31,7 @@
           angular.module('binkClient', []).
                   config(['$routeProvider', function($routeProvider) {
               $routeProvider.
-                      when('/categories', {template: '/categories.html',   controller: pagesCtrl}).
+                      when('/:urlParam', {template: '/categories.html',   controller: pagesCtrl});
                       /*
                       when('/categories', {template: '/categories.html',   controller: pagesCtrl}).
                       when('/pages', {template:  '/pages.html', controller: pagesCtrl}).
@@ -40,14 +40,14 @@
                       when('/Professionalism_and_education/Computers', {template:  '/Map/Professionalism_and_education/Computers/Computers.html', controller: pagesCtrl}).
                       when('/Professionalism_and_education/Computers/UI/Examples', {template:  '/Map/Professionalism_and_education/Computers/UI/Examples/Examples.html', controller: pagesCtrl}).
                       when('/Professionalism_and_education/Computers/Web/Tools/Frameworks/Symfony2', {template:  '/Map/Professionalism_and_education/Computers/Web/Tools/Frameworks/Symfony2/Symfony2.html', controller: pagesCtrl}).
-                      */
                       otherwise({redirectTo: '/categories'});
+                      */
           }]);
 
-          function pagesCtrl($scope, $location) {
-              var x = $location.path().lastIndexOf('/');
-              var fileName = $location.path().substr(x+1);
-              $scope.templateUrl = '/Map'+$location.path()+'/'+fileName+'.html';
+          function pagesCtrl($scope, $routeParams) {
+              var x = $routeParams.urlParam.lastIndexOf('/');
+              var fileName = $routeParams.urlParam.substr(x+1);
+              $scope.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
               $scope.yes = "yes!";
           }
       </script>
