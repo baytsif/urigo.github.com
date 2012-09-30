@@ -28,8 +28,9 @@
     <script type="text/javascript" src="tree.js"></script>
 
       <script>
-          angular.module('binkClient', []).
-                  config(['$routeProvider', function($routeProvider) {
+          var app = angular.module('binkClient', []);
+
+          app.config(['$routeProvider', function($routeProvider) {
               $routeProvider.
                       when('/categories', {template: '/categories.html',   controller: pagesCtrl}).
                       when('/pages', {template:  '/pages.html', controller: pagesCtrl}).
@@ -48,8 +49,6 @@
   </head>
 
   <body onload="init();">
-
-  <div>Inner github update page</div>
       <div id='container'>
           <div id='center-container'>
               <div id='infovis'/>
@@ -131,6 +130,9 @@
 
           postsId - is it?
           {% for post in site.posts %}
+          <script>
+
+          </script>
           <a href="#{{ post.url }}">{{ post.title }}</a>
           {% endfor %}
 
