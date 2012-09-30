@@ -42,7 +42,7 @@ function init(){
         data: {},
         children: [{
             id: "node11",
-            name: "Professionalism_and_education",
+            name: "Professionalism and education",
             data: {'url':'#/Professionalism_and_education'},
             children: [{
                 id: "node21",
