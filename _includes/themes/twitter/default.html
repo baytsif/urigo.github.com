@@ -44,7 +44,8 @@
                       */
           }]);
 
-          function pagesCtrl($scope, $routeParams) {
+          function pagesCtrl($scope, $routeParams, $location) {
+              alert($location.path());
               var x = $routeParams.urlParam.lastIndexOf('/');
               var fileName = $routeParams.urlParam.substr(x+1);
               $scope.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
