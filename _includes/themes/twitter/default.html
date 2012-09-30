@@ -31,7 +31,7 @@
           angular.module('binkClient', []).
                   config(['$routeProvider', function($routeProvider) {
               $routeProvider.
-                      when('/:urlParam', {template: '/categories.html',   controller: pagesCtrl});
+                      when('/', {template: '/categories.html',   controller: pagesCtrl});
                       /*
                       when('/categories', {template: '/categories.html',   controller: pagesCtrl}).
                       when('/pages', {template:  '/pages.html', controller: pagesCtrl}).
@@ -44,11 +44,10 @@
                       */
           }]);
 
-          function pagesCtrl($scope, $routeParams, $location) {
-              alert($location.path());
-              var x = $routeParams.urlParam.lastIndexOf('/');
-              var fileName = $routeParams.urlParam.substr(x+1);
-              $scope.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
+          function pagesCtrl($scope, $location) {
+              var x = $location.path().lastIndexOf('/');
+              var fileName = $location.path().substr(x+1);
+              $scope.templateUrl = '/Map'+$location.path()+'/'+fileName+'.html';
               $scope.yes = "yes!";
           }
       </script>
