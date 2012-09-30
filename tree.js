@@ -43,11 +43,11 @@ function init(){
         children: [{
             id: "node11",
             name: "Professionalism and education",
-            data: {'url':'#/Professionalism_and_education'},
+            data: {'url':'#/?urlParam=Professionalism_and_education'},
             children: [{
                 id: "node21",
                 name: "Computers",
-                data: {'url':'#/Professionalism_and_education/Computers'},
+                data: {'url':'#/?urlParam=Professionalism_and_education/Computers'},
                 children: [{
                     id: "node35",
                     name: "nothing",
