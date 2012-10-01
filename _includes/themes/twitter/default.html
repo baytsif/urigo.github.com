@@ -21,7 +21,7 @@
     <script language='javascript' src='http://thejit.org/static/v20/Jit/jit.js' type='text/javascript'/>
 
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+
     <script src="http://code.angularjs.org/angular-1.0.0rc10.min.js"></script>
     <script src="http://code.angularjs.org/angular-resource-1.0.0rc10.min.js"></script>
 
@@ -30,18 +30,7 @@
       <script>
           angular.module('binkClient', []).
                   config(['$routeProvider', function($routeProvider) {
-              $routeProvider.
-                      when('/', {template: '/categories.html',   controller: pagesCtrl});
-                      /*
-                      when('/categories', {template: '/categories.html',   controller: pagesCtrl}).
-                      when('/pages', {template:  '/pages.html', controller: pagesCtrl}).
-                      when('/Time/Methology/archive2', {template:  '/Time/Methology/archive2.html', controller: pagesCtrl}).
-                      when('/Professionalism_and_education', {template:  '/Map/Professionalism_and_education/Professionalism_and_education.html', controller: pagesCtrl}).
-                      when('/Professionalism_and_education/Computers', {template:  '/Map/Professionalism_and_education/Computers/Computers.html', controller: pagesCtrl}).
-                      when('/Professionalism_and_education/Computers/UI/Examples', {template:  '/Map/Professionalism_and_education/Computers/UI/Examples/Examples.html', controller: pagesCtrl}).
-                      when('/Professionalism_and_education/Computers/Web/Tools/Frameworks/Symfony2', {template:  '/Map/Professionalism_and_education/Computers/Web/Tools/Frameworks/Symfony2/Symfony2.html', controller: pagesCtrl}).
-                      otherwise({redirectTo: '/categories'});
-                      */
+              $routeProvider.when('/', {template: '/categories.html',   controller: pagesCtrl});
           }]);
 
           function pagesCtrl($scope, $routeParams) {
