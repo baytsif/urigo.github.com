@@ -38,8 +38,38 @@
                   var fileName = $routeParams.urlParam.substr(x+1);
                   $scope.templateUrl = '/Map/'+$routeParams.urlParam+'/'+fileName+'.html';
               }
+
+              $scope.afterPartialLoaded = function() {
+                  var currentPageId = $location.path();
+                  loadDisqus(currentPageId);
+              };
+
               $scope.yes = "yes!";
           }
+
+          function loadDisqus(currentPageId) {
+              // http://docs.disqus.com/help/2/
+              window.disqus_shortname = 'lifessmalltutorial';
+              window.disqus_identifier = currentPageId;
+              window.disqus_url = 'http://urigo.github.com' + currentPageId;
+
+              if ($location.host() == 'localhost') {
+                  return; // don't display disqus on localhost, comment this out if needed
+                  //window.disqus_developer = 1;
+              }
+
+              // http://docs.disqus.com/developers/universal/
+              (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] ||
+                          document.getElementsByTagName('body')[0]).appendChild(dsq);
+              })();
+
+              angular.element(document.getElementById('disqus_thread')).html('');
+          }
+
+
       </script>
   </head>
 
