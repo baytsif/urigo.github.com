@@ -30,7 +30,7 @@
       <script>
           angular.module('binkClient', []).
                   config(['$routeProvider', function($routeProvider) {
-              $routeProvider.when('/', {template: '/categories.html',   controller: pagesCtrl});
+              $routeProvider.when('/', {templateUrl: '/categories.html',   controller: pagesCtrl});
           }]);
 
           function pagesCtrl($scope, $routeParams) {
