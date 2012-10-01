@@ -49,15 +49,9 @@
 
           function loadDisqus(currentPageId) {
               // http://docs.disqus.com/help/2/
-              alert(currentPageId);
               window.disqus_shortname = 'lifessmalltutorial';
               window.disqus_identifier = currentPageId;
               window.disqus_url = 'http://urigo.github.com' + currentPageId;
-
-              if ($location.host() == 'localhost') {
-                  return; // don't display disqus on localhost, comment this out if needed
-                  //window.disqus_developer = 1;
-              }
 
               // http://docs.disqus.com/developers/universal/
               (function() {
