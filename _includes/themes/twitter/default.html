@@ -40,7 +40,7 @@
               }
 
               $scope.afterPartialLoaded = function() {
-                  var currentPageId = $location.path();
+                  var currentPageId = $scope.templateUrl;
                   loadDisqus(currentPageId);
               };
 
