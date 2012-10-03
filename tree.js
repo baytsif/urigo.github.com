@@ -909,6 +909,7 @@ function init(){
     //end
 
     function changeNode(){
+        alert('sdfgsdf');
         st.setRoot("node21", 'animate');
     }
 
