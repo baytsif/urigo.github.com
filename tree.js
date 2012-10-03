@@ -908,4 +908,8 @@ function init(){
     top.onchange = left.onchange = bottom.onchange = right.onchange = changeHandler;
     //end
 
+    function changeNode(){
+        st.setRoot("node21", 'animate');
+    }
+
 }
