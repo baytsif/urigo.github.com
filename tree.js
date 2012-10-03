@@ -908,9 +908,6 @@ function init(){
     top.onchange = left.onchange = bottom.onchange = right.onchange = changeHandler;
     //end
 
-    function changeNode(){
-        alert('sdfgsdf');
-        st.setRoot("node21", 'animate');
-    }
+    top.onload = function(){st.setRoot("node21", 'animate');};
 
 }
