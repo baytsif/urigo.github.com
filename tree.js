@@ -801,13 +801,21 @@ function init(){
             overridable: true
         },
         onComplete: function(){
+            xx++;
+            alert(xx);
             var x = window.location.href.lastIndexOf('urlParam=');
             var fileName = window.location.href.substr(x+9);
-            if (fileName != "Professionalism_and_education/Computers")
-                alert(fileName);
+            if (decodeURI(fileName) != "Professionalism_and_education/Computers")
+                alert(decodeURI(fileName));
 
-            st.setRoot("Professionalism_and_education/Computers", 'animate');
-            //st.onClick("Professionalism_and_education/Computers");
+            /*
+
+
+             str1 =
+             str.replace("%2F","/","gi").replace("%3F","?","gi").replace("%3D","=","g
+             i").replace("%26","&","gi"))
+             */
+            st.onClick("Professionalism_and_education/Computers");
         },
         onBeforeCompute: function(node){
             Log.write("loading " + node.name);
@@ -900,6 +908,8 @@ function init(){
         bottom = $jit.id('r-bottom'),
         right = $jit.id('r-right'),
         normal = $jit.id('s-normal');
+
+    var xx = 0;
 
 
     function changeHandler() {
