@@ -801,7 +801,7 @@ function init(){
             overridable: true
         },
         onComplete: function(){
-            alert('adfsgsdfg');
+            st.onClick("node21");
         },
         onBeforeCompute: function(node){
             Log.write("loading " + node.name);
