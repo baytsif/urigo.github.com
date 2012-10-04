@@ -803,8 +803,9 @@ function init(){
         onComplete: function(){
             xx++;
             alert(xx);
-            var x = decodeURI(window.location.href).lastIndexOf('urlParam=');
+            var x = window.location.href.lastIndexOf('urlParam=');
             var fileName = window.location.href.substr(x+9);
+            fileName = fileName.replace("%2F","/","gi").replace("%3F","?","gi").replace("%3D","=","gi").replace("%26","&","gi");
             if (fileName != "Professionalism_and_education/Computers")
                 alert(fileName);
 
