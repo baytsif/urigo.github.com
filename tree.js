@@ -41,7 +41,7 @@ function init(){
         name: "Life",
         data: {},
         children: [{
-            id: "node11",
+            id: "Professionalism_and_education",
             name: "Professionalism and education",
             data: {'url':'#/?urlParam=Professionalism_and_education'},
             children: [{
@@ -807,11 +807,8 @@ function init(){
             if (fileName != firstUrl)
             {
                 firstUrl = fileName;
-                alert('sd');
                 st.onClick(firstUrl);
             }
-            else
-                firstUrl = '';
         },
         onBeforeCompute: function(node){
             Log.write("loading " + node.name);
