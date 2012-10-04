@@ -39,7 +39,7 @@ a {
     height:300px;
     position:absolute;
     top:0;
-    background-color:#1a1a1a;
+    background:url("../images/body_bg.jpg") repeat;
     color:#ccc;
 }
 

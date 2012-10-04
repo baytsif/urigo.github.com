@@ -1,6 +1,6 @@
 /* Override some defaults */
 html, body {
-  background:url("../images/body_bg.jpg") repeat;
+  background:url("../images/filters_menu_bg.png") repeat;
 }
 .navbar {
   margin-bottom: 0;
