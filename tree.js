@@ -803,7 +803,8 @@ function init(){
         onComplete: function(){
             var x = window.location.href.lastIndexOf('urlParam=');
             var fileName = window.location.href.substr(x+9);
-            alert(fileName);
+            if (fileName != "Professionalism_and_education/Computers")
+                alert(fileName);
 
             st.onClick("Professionalism_and_education/Computers");
         },
