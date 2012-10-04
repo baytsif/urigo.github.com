@@ -801,7 +801,7 @@ function init(){
             overridable: true
         },
         onComplete: function(){
-            st.onClick("node21");
+            st.onClick("node354");
         },
         onBeforeCompute: function(node){
             Log.write("loading " + node.name);
