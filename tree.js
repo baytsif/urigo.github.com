@@ -45,7 +45,7 @@ function init(){
             name: "Professionalism and education",
             data: {'url':'#/?urlParam=Professionalism_and_education'},
             children: [{
-                id: "node21",
+                id: "Professionalism_and_education/Computers",
                 name: "Computers",
                 data: {'url':'#/?urlParam=Professionalism_and_education/Computers'},
                 children: [{
@@ -801,7 +801,8 @@ function init(){
             overridable: true
         },
         onComplete: function(){
-            st.onClick("node354");
+            alert(window.location.href);
+            st.onClick("Professionalism_and_education/Computers");
         },
         onBeforeCompute: function(node){
             Log.write("loading " + node.name);
