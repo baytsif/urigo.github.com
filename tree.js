@@ -807,6 +807,7 @@ function init(){
             if (fileName != firstUrl)
             {
                 firstUrl = fileName;
+                alert('adfg');
                 st.onClick(firstUrl);
             }
         },
