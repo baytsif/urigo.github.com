@@ -802,7 +802,7 @@ function init(){
         },
         onComplete: function(){
             var x = window.location.href.lastIndexOf('urlParam=');
-            var fileName = window.location.href.substr(x+1);
+            var fileName = window.location.href.substr(x+9);
             alert(fileName);
 
             st.onClick("Professionalism_and_education/Computers");
