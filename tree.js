@@ -800,7 +800,9 @@ function init(){
             type: 'bezier',
             overridable: true
         },
-
+        onComplete: function(){
+            alert('adfsgsdfg');
+        },
         onBeforeCompute: function(node){
             Log.write("loading " + node.name);
         },
@@ -907,7 +909,5 @@ function init(){
 
     top.onchange = left.onchange = bottom.onchange = right.onchange = changeHandler;
     //end
-
-    top.onload = function(){st.setRoot("node21", 'animate');};
 
 }

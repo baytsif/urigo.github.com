@@ -44,10 +44,6 @@
                   loadDisqus(currentPageId);
               };
 
-              $scope.changeNode = function(){
-                changeNode();
-              };
-
               $scope.yes = "yes!";
           }
 
@@ -140,8 +136,7 @@
       </div>
 
       <div>
-          <div ng-click="changeNode()">pages</div>
-
+          pages
 
           <div id="posts">
               {% for page in site.pages %}
