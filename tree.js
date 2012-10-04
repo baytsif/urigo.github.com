@@ -801,22 +801,15 @@ function init(){
             overridable: true
         },
         onComplete: function(){
-            xx++;
-            alert(xx);
             var x = window.location.href.lastIndexOf('urlParam=');
             var fileName = window.location.href.substr(x+9);
             fileName = fileName.replace("%2F","/","gi").replace("%3F","?","gi").replace("%3D","=","gi").replace("%26","&","gi");
-            if (fileName != "Professionalism_and_education/Computers")
-                alert(fileName);
-
-            /*
-
-
-             str1 =
-             str.replace("%2F","/","gi").replace("%3F","?","gi").replace("%3D","=","g
-             i").replace("%26","&","gi"))
-             */
-            st.onClick("Professionalism_and_education/Computers");
+            if (fileName != firstUrl)
+            {
+                firstUrl = fileName;
+                alert('sd');
+                st.onClick(firstUrl);
+            }
         },
         onBeforeCompute: function(node){
             Log.write("loading " + node.name);
@@ -910,7 +903,7 @@ function init(){
         right = $jit.id('r-right'),
         normal = $jit.id('s-normal');
 
-    var xx = 0;
+    var firstUrl = '';
 
 
     function changeHandler() {
