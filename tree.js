@@ -49,9 +49,9 @@ function init(){
                 name: "Computers",
                 data: {'url':'#/?urlParam=Professionalism_and_education/Computers'},
                 children: [{
-                    id: "node35",
-                    name: "nothing",
-                    data: {'url':'Professionalism_and_education/Professionalism_and_education'},
+                    id: "Professionalism_and_education/Computers/Programming",
+                    name: "Programming",
+                    data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming'},
                     children: [{
                         id: "node46",
                         name: "4.6",
@@ -59,9 +59,9 @@ function init(){
                         children: []
                     }]
                 }, {
-                    id: "node37",
-                    name: "Professionalism and education 2",
-                    data: {'url':'#/Professionalism_and_education/Professionalism_and_education'},
+                    id: "Programming",
+                    name: "Programming",
+                    data: {'url':'Programming'},
                     children: [{
                         id: "node48",
                         name: "Professionalism and education inner",
@@ -804,7 +804,6 @@ function init(){
             var x = window.location.href.lastIndexOf('urlParam=');
             var fileName = window.location.href.substr(x+9);
             fileName = fileName.replace("%2F","/","gi").replace("%3F","?","gi").replace("%3D","=","gi").replace("%26","&","gi");
-            console.log(fileName + ' ' + firstUrl);
             if (fileName != firstUrl)
             {
                 firstUrl = fileName;
