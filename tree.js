@@ -801,7 +801,10 @@ function init(){
             overridable: true
         },
         onComplete: function(){
-            alert(window.location.href);
+            var x = window.location.href.lastIndexOf('urlParam=');
+            var fileName = window.location.href.substr(x+1);
+            alert(fileName);
+
             st.onClick("Professionalism_and_education/Computers");
         },
         onBeforeCompute: function(node){
