@@ -803,10 +803,10 @@ function init(){
         onComplete: function(){
             xx++;
             alert(xx);
-            var x = window.location.href.lastIndexOf('urlParam=');
+            var x = decodeURI(window.location.href).lastIndexOf('urlParam=');
             var fileName = window.location.href.substr(x+9);
-            if (decodeURI(fileName) != "Professionalism_and_education/Computers")
-                alert(decodeURI(fileName));
+            if (fileName != "Professionalism_and_education/Computers")
+                alert(fileName);
 
             /*
 
