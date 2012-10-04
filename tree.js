@@ -806,7 +806,8 @@ function init(){
             if (fileName != "Professionalism_and_education/Computers")
                 alert(fileName);
 
-            st.onClick("Professionalism_and_education/Computers");
+            st.setRoot("Professionalism_and_education/Computers", 'animate');
+            //st.onClick("Professionalism_and_education/Computers");
         },
         onBeforeCompute: function(node){
             Log.write("loading " + node.name);
