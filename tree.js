@@ -810,6 +810,8 @@ function init(){
                 alert('sd');
                 st.onClick(firstUrl);
             }
+            else
+                firstUrl = '';
         },
         onBeforeCompute: function(node){
             Log.write("loading " + node.name);
@@ -827,8 +829,8 @@ function init(){
             label.innerHTML = node.name;
             label.onclick = function(){
                 if(normal.checked) {
-                    window.location.href = node.data.url;
                     st.onClick(node.id);
+                    window.location.href = node.data.url;
                 } else {
                     st.setRoot(node.id, 'animate');
                 }
