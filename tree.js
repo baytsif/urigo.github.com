@@ -804,7 +804,8 @@ function init(){
             var x = window.location.href.lastIndexOf('urlParam=');
             var fileName = window.location.href.substr(x+9);
             console.log('Before '+ fileName);
-            fileName = fileName.replace("%2F","/","all").replace("%3F","?","gi").replace("%3D","=","gi").replace("%26","&","gi");
+            fileName1 = fileName.replace("%2F","/","gi").replace("%3F","?","gi").replace("%3D","=","gi").replace("%26","&","gi");
+            fileName = fileName1;
             console.log(fileName + ' ' + firstUrl);
             if (fileName != firstUrl)
             {
