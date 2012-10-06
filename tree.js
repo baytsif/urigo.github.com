@@ -66,6 +66,26 @@ function init(){
                                 data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Tools/Source_control'},
                                 children: []
                             }]
+                        },{
+                            id: "Professionalism_and_education/Computers/Programming/Web/Languages",
+                            name: "Languages",
+                            data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Languages'},
+                            children: [{
+                                id: "Professionalism_and_education/Computers/Programming/Web/Languages/Client_side",
+                                name: "Client Side",
+                                data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Languages/Client_side'},
+                                children: [{
+                                    id: "Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript",
+                                    name: "Javascript",
+                                    data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript'},
+                                    children: [{
+                                        id: "Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/AngularJS",
+                                        name: "AngularJS",
+                                        data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/AngularJS'},
+                                        children: []
+                                    }]
+                                }]
+                            }]
                         }]
                     }]
                 }, {
