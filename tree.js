@@ -802,16 +802,18 @@ function init(){
         },
         onComplete: function(){
             var x = window.location.href.lastIndexOf('urlParam=');
-            console.log('urlParam-> '+x);
-            var fileName = window.location.href.substr(x+9);
-            console.log('Before '+ fileName);
-            fileName = decodeURIComponent(fileName)
-            //fileName = fileName.replace("%2F","/","gi").replace("%3F","?","gi").replace("%3D","=","gi").replace("%26","&","gi");
-            console.log(fileName + ' ' + firstUrl);
-            if (fileName != firstUrl)
+            if (x != -1)
             {
-                firstUrl = fileName;
-                st.onClick(firstUrl);
+                var fileName = window.location.href.substr(x+9);
+                console.log('Before '+ fileName);
+                fileName = decodeURIComponent(fileName)
+                //fileName = fileName.replace("%2F","/","gi").replace("%3F","?","gi").replace("%3D","=","gi").replace("%26","&","gi");
+                console.log(fileName + ' ' + firstUrl);
+                if (fileName != firstUrl)
+                {
+                    firstUrl = fileName;
+                    st.onClick(firstUrl);
+                }
             }
         },
         onBeforeCompute: function(node){
