@@ -802,6 +802,7 @@ function init(){
         },
         onComplete: function(){
             var x = window.location.href.lastIndexOf('urlParam=');
+            console.log('urlParam-> '+x);
             var fileName = window.location.href.substr(x+9);
             console.log('Before '+ fileName);
             fileName = decodeURIComponent(fileName)
