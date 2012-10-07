@@ -805,7 +805,7 @@ function init(){
         injectInto: 'infovis',
         orientation: 'top',
         //set duration for the animation
-        duration: 500,
+        duration: 300,
         //set animation transition type
         transition: $jit.Trans.Quart.easeInOut,
         //set distance between node and its children
