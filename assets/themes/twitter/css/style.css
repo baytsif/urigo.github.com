@@ -1,6 +1,6 @@
 /* Override some defaults */
 html, body {
-  background: #D1DCA9 url("../images/blog_back_small.png") repeat top left;
+  background: #D1DCA9 url("../images/Board_bg.jpg") repeat top left;
 }
 .navbar {
   margin-bottom: 0;
@@ -67,4 +67,8 @@ html, body {
 	background:#57A957;
 	border:1px solid #4C964D;
 	color:#FFF;
+}
+
+.content {
+    background:url("../images/body_bg.jpg") repeat;
 }
