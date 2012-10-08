@@ -822,7 +822,7 @@ function init(){
             height: 40,
             width: 90,
             type: 'rectangle',
-            color: '#aaa',
+            color: '#AB5610',
             overridable: true
         },
 
@@ -875,7 +875,7 @@ function init(){
             style.height = 40 + 'px';
             style.cursor = 'pointer';
             style.color = '#333';
-            style.fontSize = '0.8em';
+            style.fontSize = '0.9em';
             style.textAlign= 'center';
             style.paddingTop = '3px';
             style.overflow = 'auto';
@@ -890,7 +890,7 @@ function init(){
             //add some color to the nodes in the path between the
             //root node and the selected node.
             if (node.selected) {
-                node.data.$color = "#ff7";
+                node.data.$color = "#F4F092";
             }
             else {
                 delete node.data.$color;
@@ -901,7 +901,7 @@ function init(){
                     node.eachSubnode(function(n) { count++; });
                     //assign a node color based on
                     //how many children it has
-                    node.data.$color = ['#aaa', '#baa', '#caa', '#daa', '#eaa', '#faa'][count];
+                    node.data.$color = ['#ABA410', '#AB5610', '#AB7D10', '#ABA410', '#8BAB10', '#64AB10'][count];
                 }
             }
         },
@@ -913,7 +913,7 @@ function init(){
         //override the Edge global style properties.
         onBeforePlotLine: function(adj){
             if (adj.nodeFrom.selected && adj.nodeTo.selected) {
-                adj.data.$color = "#eed";
+                adj.data.$color = "#64AB10";
                 adj.data.$lineWidth = 3;
             }
             else {
