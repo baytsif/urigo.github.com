@@ -65,6 +65,16 @@ function init(){
                                 name: "Source Control",
                                 data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Tools/Source_control'},
                                 children: []
+                            },{
+                                id: "Professionalism_and_education/Computers/Programming/Web/Tools/Testing",
+                                name: "Testing",
+                                data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Tools/Testing'},
+                                children: []
+                            },{
+                                id: "Professionalism_and_education/Computers/Programming/Web/Tools/Performance",
+                                name: "Performance",
+                                data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Tools/Performance'},
+                                children: []
                             }]
                         },{
                             id: "Professionalism_and_education/Computers/Programming/Web/Languages",
@@ -89,9 +99,9 @@ function init(){
                         }]
                     }]
                 }, {
-                    id: "Not",
-                    name: "Not",
-                    data: {'url':'Not'},
+                    id: "Professionalism_and_education/Computers/Usage",
+                    name: "Usage",
+                    data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Usage'},
                     children: [{
                         id: "node48",
                         name: "Professionalism and education inner",
