@@ -191,21 +191,21 @@ function init(){
                 }]
             }]
         }, {
-            id: "node125",
-            name: "pages",
-            data: {'url':'#/pages'},
+            id: "Money",
+            name: "Money",
+            data: {'url':'#/?urlParam=Money'},
             children: [{
-                id: "node226",
-                name: "2.26",
-                data: {},
+                id: "Money/Savings",
+                name: "Savings",
+                data: {'url':'#/?urlParam=Money/Savings'},
                 children: [{
-                    id: "node327",
-                    name: "3.27",
-                    data: {},
+                    id: "Money/Savings/Expenses_types",
+                    name: "Expenses types",
+                    data: {'url':'#/?urlParam=Money/Savings/Expenses_types'},
                     children: [{
-                        id: "node428",
-                        name: "4.28",
-                        data: {},
+                        id: "Money/Savings/Expenses_types/Commissions",
+                        name: "Commissions",
+                        data: {'url':'#/?urlParam=Money/Savings/Expenses_types/Commissions'},
                         children: []
                     }, {
                         id: "node429",
