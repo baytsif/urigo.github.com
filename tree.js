@@ -124,13 +124,28 @@ function init(){
                         children: []
                     }]
                 }, {
-                    id: "node312",
-                    name: "3.12",
-                    data: {},
+                    id: "Professionalism_and_education/Computers/UI",
+                    name: "UI",
+                    data: {'url':'#/?urlParam=Professionalism_and_education/Computers/UI'},
                     children: [{
-                        id: "node413",
-                        name: "4.13",
-                        data: {},
+                        id: "Professionalism_and_education/Computers/UI/Devices",
+                        name: "Devices",
+                        data: {'url':'#/?urlParam=Professionalism_and_education/Computers/UI/Devices'},
+                        children: []
+                    },{
+                        id: "Professionalism_and_education/Computers/UI/Examples",
+                        name: "Examples",
+                        data: {'url':'#/?urlParam=Professionalism_and_education/Computers/UI/Examples'},
+                        children: []
+                    },{
+                        id: "Professionalism_and_education/Computers/UI/Prototype",
+                        name: "Prototype",
+                        data: {'url':'#/?urlParam=Professionalism_and_education/Computers/UI/Prototype'},
+                        children: []
+                    },{
+                        id: "Professionalism_and_education/Computers/UI/Tools",
+                        name: "Tools",
+                        data: {'url':'#/?urlParam=Professionalism_and_education/Computers/UI/Tools'},
                         children: []
                     }]
                 }, {
