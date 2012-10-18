@@ -94,6 +94,16 @@ function init(){
                                         data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/AngularJS'},
                                         children: []
                                     }]
+                                },{
+                                    id: "Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Display",
+                                    name: "Display",
+                                    data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Display'},
+                                    children: [{
+                                        id: "Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Display/CSS",
+                                        name: "CSS",
+                                        data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Display/CSS'},
+                                        children: []
+                                    }]
                                 }]
                             }]
                         }]
@@ -223,9 +233,9 @@ function init(){
                         data: {'url':'#/?urlParam=Money/Savings/Expenses_types/Commissions'},
                         children: []
                     }, {
-                        id: "node429",
-                        name: "4.29",
-                        data: {},
+                        id: "Money/Savings/Expenses_types/Communication",
+                        name: "Communication",
+                        data: {'url':'#/?urlParam=Money/Savings/Expenses_types/Communication'},
                         children: []
                     }]
                 }, {
