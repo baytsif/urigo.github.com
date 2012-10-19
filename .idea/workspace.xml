@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a2be76c-457d-495e-bdb7-a2455c7b38a2" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/Map/hahaha/2012-09-15-check.md" afterPath="$PROJECT_DIR$/_posts/Map/hahaha/2012-09-15-checkYo.html" />
+    <list default="true" id="7a2be76c-457d-495e-bdb7-a2455c7b38a2" name="Default" comment="Check route">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Map/Map.html" afterPath="$PROJECT_DIR$/Map/Map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/default.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +15,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -28,88 +29,88 @@
       <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="14" selection-start="5546" selection-end="5546" vertical-scroll-proportion="-6.04">
+            <state line="39" column="71" selection-start="1913" selection-end="1913" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2012-09-15-checkYo.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/Map/hahaha/2012-09-15-checkYo.html">
+      <file leaf-file-name="Energy.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Expenses_types/Energy/Energy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
+            <state line="6" column="176" selection-start="238" selection-end="238" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2011-12-15-innerpooo.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Map/hahaha/2011-12-15-innerpooo.md">
+      <file leaf-file-name="tree.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+            <state line="209" column="31" selection-start="10540" selection-end="10540" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profff.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Map/hahaha/profff.md">
+      <file leaf-file-name="Collaboration.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Soul/Values/Collaboration/Collaboration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="410" column="76" selection-start="17592" selection-end="17595" vertical-scroll-proportion="-236.53847">
+            <state line="3" column="141" selection-start="299" selection-end="299" vertical-scroll-proportion="-1.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2011-12-15-jekyll-lesson2.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Map/2011-12-15-jekyll-lesson2.md">
+      <file leaf-file-name="Map.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Map/Map.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="410" column="76" selection-start="17588" selection-end="17591" vertical-scroll-proportion="-11.692307">
+            <state line="22" column="15" selection-start="459" selection-end="459" vertical-scroll-proportion="0.74880385">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2011-12-15-jekyll-lesson2.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2011-12-15-jekyll-lesson2.md">
+      <file leaf-file-name="Tools.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Management/Tools/Tools.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="13" column="36" selection-start="316" selection-end="316" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2011-12-29-jekyll-introduction.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2011-12-29-jekyll-introduction.md">
+      <file leaf-file-name="Strength.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Strength/Strength.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="53" selection-start="53" selection-end="53" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2011-12-29-jekyll-introduction.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Map/2011-12-29-jekyll-introduction.md">
+      <file leaf-file-name="Maps.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Libraries/Maps/Maps.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="24" selection-start="112" selection-end="131" vertical-scroll-proportion="-4.0384617">
+            <state line="18" column="103" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.md">
+      <file leaf-file-name="Communication.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Expenses_types/Communication/Communication.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="17" selection-start="847" selection-end="857" vertical-scroll-proportion="0.0">
+            <state line="13" column="55" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="archive.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/archive.html">
+      <file leaf-file-name="CSS.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Display/CSS/CSS.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="26" selection-start="157" selection-end="157" vertical-scroll-proportion="-5.625">
+            <state line="9" column="56" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,22 +129,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/AngularJS/AngularJS.html" />
-        <option value="$PROJECT_DIR$/flare.json" />
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Computers.html" />
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Libraries/Voice_and_sms/Voice_and_sms.html" />
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Biology/Synthetic_biology/Synthetic_biology.html" />
-        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Longlivity/Longlivity.html" />
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Professionalism_and_education.html" />
-        <option value="$USER_HOME$/Downloads/mbostock-d3-e01f789/examples/tree/tree-dynamic.html" />
-        <option value="$PROJECT_DIR$/_includes/themes/twitter/defaultD3.html" />
-        <option value="$PROJECT_DIR$/assets/themes/twitter/css/style.css" />
-        <option value="$PROJECT_DIR$/assets/themes/twitter/css/tree.css" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Usage/Usage.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Source_control/Source_control.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Web.html" />
+        <option value="$PROJECT_DIR$/Map/Time/Time.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Libraries/Maps/Maps.html" />
+        <option value="$PROJECT_DIR$/Map/Money/Savings/Expenses_types/Communication/Communication.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Display/CSS/CSS.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/UI/Examples/Examples.html" />
+        <option value="$PROJECT_DIR$/Map/Money/Savings/Expenses_types/Energy/Energy.html" />
+        <option value="$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Strength/Strength.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Management/Tools/JIRA/JIRA.html" />
+        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Management/Tools/Tools.html" />
         <option value="$PROJECT_DIR$/tree.js" />
-        <option value="$PROJECT_DIR$/_posts/core-samples/hahaha/2011-12-15-innerpooo.md" />
-        <option value="$PROJECT_DIR$/_posts/Map/hahaha/check.html" />
+        <option value="$PROJECT_DIR$/Map/Soul/Values/Collaboration/Collaboration.html" />
+        <option value="$PROJECT_DIR$/Map/Map.html" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
-        <option value="$PROJECT_DIR$/_posts/Map/hahaha/check.md" />
       </list>
     </option>
   </component>
@@ -178,16 +179,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -216,24 +207,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Urigo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Urigo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Map" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -248,16 +221,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
+              <option name="myItemId" value="_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Urigo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Urigo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Map" />
+              <option name="myItemId" value="_includes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hahaha" />
+              <option name="myItemId" value="themes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -272,6 +269,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/themes/twitter/images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/_posts/core-samples/hahaha" />
       <recent name="$PROJECT_DIR$/_includes" />
@@ -690,23 +688,475 @@
       <created>1348701362061</created>
       <updated>1348701362061</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Old tree">
+      <created>1348701449899</created>
+      <updated>1348701449899</updated>
+    </task>
+    <task id="LOCAL-00095" summary="Old tree">
+      <created>1348701584481</created>
+      <updated>1348701584482</updated>
+    </task>
+    <task id="LOCAL-00096" summary="dsfgdsfg">
+      <created>1348701804212</created>
+      <updated>1348701804212</updated>
+    </task>
+    <task id="LOCAL-00097" summary="dsfgdsfg">
+      <created>1348702173242</created>
+      <updated>1348702173242</updated>
+    </task>
+    <task id="LOCAL-00098" summary="Check 0000">
+      <created>1348703381655</created>
+      <updated>1348703381655</updated>
+    </task>
+    <task id="LOCAL-00099" summary="Update please">
+      <created>1348835127591</created>
+      <updated>1348835127591</updated>
+    </task>
+    <task id="LOCAL-00100" summary="Update please">
+      <created>1348969650195</created>
+      <updated>1348969650195</updated>
+    </task>
+    <task id="LOCAL-00101" summary="Remove automatic pages">
+      <created>1349016971453</created>
+      <updated>1349016971453</updated>
+    </task>
+    <task id="LOCAL-00102" summary="Undo renaming">
+      <created>1349019282320</created>
+      <updated>1349019282320</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Finaly">
+      <created>1349019497097</created>
+      <updated>1349019497098</updated>
+    </task>
+    <task id="LOCAL-00104" summary="Finaly">
+      <created>1349019570556</created>
+      <updated>1349019570556</updated>
+    </task>
+    <task id="LOCAL-00105" summary="Rename date">
+      <created>1349019734512</created>
+      <updated>1349019734512</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Rename date not zero">
+      <created>1349019988255</created>
+      <updated>1349019988255</updated>
+    </task>
+    <task id="LOCAL-00107" summary="Rename date not zero">
+      <created>1349021421362</created>
+      <updated>1349021421362</updated>
+    </task>
+    <task id="LOCAL-00108" summary="Rename date not zero">
+      <created>1349021656591</created>
+      <updated>1349021656591</updated>
+    </task>
+    <task id="LOCAL-00109" summary="Check route">
+      <created>1349047353709</created>
+      <updated>1349047353709</updated>
+    </task>
+    <task id="LOCAL-00110" summary="Check route">
+      <created>1349047478853</created>
+      <updated>1349047478853</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Check route">
+      <created>1349047611050</created>
+      <updated>1349047611050</updated>
+    </task>
+    <task id="LOCAL-00112" summary="Check route">
+      <created>1349047791289</created>
+      <updated>1349047791289</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Check route">
+      <created>1349047912361</created>
+      <updated>1349047912361</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Check route">
+      <created>1349048092783</created>
+      <updated>1349048092783</updated>
+    </task>
+    <task id="LOCAL-00115" summary="Check route">
+      <created>1349048424502</created>
+      <updated>1349048424502</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Check route">
+      <created>1349048561296</created>
+      <updated>1349048561296</updated>
+    </task>
+    <task id="LOCAL-00117" summary="Check route">
+      <created>1349048847197</created>
+      <updated>1349048847197</updated>
+    </task>
+    <task id="LOCAL-00118" summary="Check route">
+      <created>1349049234377</created>
+      <updated>1349049234377</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Check route">
+      <created>1349049311507</created>
+      <updated>1349049311507</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Check route">
+      <created>1349049465917</created>
+      <updated>1349049465917</updated>
+    </task>
+    <task id="LOCAL-00121" summary="Check route">
+      <created>1349049677184</created>
+      <updated>1349049677184</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Remove Jquery">
+      <created>1349050087299</created>
+      <updated>1349050087299</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Check route">
+      <created>1349050191025</created>
+      <updated>1349050191025</updated>
+    </task>
+    <task id="LOCAL-00124" summary="Check route">
+      <created>1349050291686</created>
+      <updated>1349050291686</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Check route">
+      <created>1349050543264</created>
+      <updated>1349050543264</updated>
+    </task>
+    <task id="LOCAL-00126" summary="Check route">
+      <created>1349050597344</created>
+      <updated>1349050597344</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Check route">
+      <created>1349051234172</created>
+      <updated>1349051234172</updated>
+    </task>
+    <task id="LOCAL-00128" summary="CSS">
+      <created>1349051461429</created>
+      <updated>1349051461429</updated>
+    </task>
+    <task id="LOCAL-00129" summary="Comments">
+      <created>1349052523644</created>
+      <updated>1349052523644</updated>
+    </task>
+    <task id="LOCAL-00130" summary="Check route">
+      <created>1349052902171</created>
+      <updated>1349052902172</updated>
+    </task>
+    <task id="LOCAL-00131" summary="Check route">
+      <created>1349054122357</created>
+      <updated>1349054122357</updated>
+    </task>
+    <task id="LOCAL-00132" summary="Check route">
+      <created>1349054611739</created>
+      <updated>1349054611739</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Check route">
+      <created>1349054794101</created>
+      <updated>1349054794102</updated>
+    </task>
+    <task id="LOCAL-00134" summary="Check route">
+      <created>1349054935242</created>
+      <updated>1349054935242</updated>
+    </task>
+    <task id="LOCAL-00135" summary="Check route">
+      <created>1349307388894</created>
+      <updated>1349307388894</updated>
+    </task>
+    <task id="LOCAL-00136" summary="Check route">
+      <created>1349307521223</created>
+      <updated>1349307521223</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Check route">
+      <created>1349307699624</created>
+      <updated>1349307699624</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Check route">
+      <created>1349308072902</created>
+      <updated>1349308072902</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Check route">
+      <created>1349308824739</created>
+      <updated>1349308824739</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Check route">
+      <created>1349308922820</created>
+      <updated>1349308922820</updated>
+    </task>
+    <task id="LOCAL-00141" summary="Check route">
+      <created>1349309069277</created>
+      <updated>1349309069277</updated>
+    </task>
+    <task id="LOCAL-00142" summary="Check route">
+      <created>1349309301233</created>
+      <updated>1349309301233</updated>
+    </task>
+    <task id="LOCAL-00143" summary="Check route">
+      <created>1349309908651</created>
+      <updated>1349309908651</updated>
+    </task>
+    <task id="LOCAL-00144" summary="Check route">
+      <created>1349310072240</created>
+      <updated>1349310072240</updated>
+    </task>
+    <task id="LOCAL-00145" summary="Check route">
+      <created>1349310247412</created>
+      <updated>1349310247412</updated>
+    </task>
+    <task id="LOCAL-00146" summary="Check route">
+      <created>1349310903105</created>
+      <updated>1349310903105</updated>
+    </task>
+    <task id="LOCAL-00147" summary="Check route">
+      <created>1349311638285</created>
+      <updated>1349311638285</updated>
+    </task>
+    <task id="LOCAL-00148" summary="Check route">
+      <created>1349311757266</created>
+      <updated>1349311757266</updated>
+    </task>
+    <task id="LOCAL-00149" summary="Check route">
+      <created>1349311990553</created>
+      <updated>1349311990553</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Check route">
+      <created>1349312254794</created>
+      <updated>1349312254794</updated>
+    </task>
+    <task id="LOCAL-00151" summary="Check route">
+      <created>1349312389737</created>
+      <updated>1349312389737</updated>
+    </task>
+    <task id="LOCAL-00152" summary="Check route">
+      <created>1349312490248</created>
+      <updated>1349312490248</updated>
+    </task>
+    <task id="LOCAL-00153" summary="Check route">
+      <created>1349312705245</created>
+      <updated>1349312705245</updated>
+    </task>
+    <task id="LOCAL-00154" summary="Check route">
+      <created>1349312803515</created>
+      <updated>1349312803515</updated>
+    </task>
+    <task id="LOCAL-00155" summary="Check route">
+      <created>1349312857739</created>
+      <updated>1349312857739</updated>
+    </task>
+    <task id="LOCAL-00156" summary="Check route">
+      <created>1349313283492</created>
+      <updated>1349313283492</updated>
+    </task>
+    <task id="LOCAL-00157" summary="Check route">
+      <created>1349313620954</created>
+      <updated>1349313620954</updated>
+    </task>
+    <task id="LOCAL-00158" summary="Check route">
+      <created>1349313778827</created>
+      <updated>1349313778827</updated>
+    </task>
+    <task id="LOCAL-00159" summary="Check route">
+      <created>1349314267062</created>
+      <updated>1349314267062</updated>
+    </task>
+    <task id="LOCAL-00160" summary="Check route">
+      <created>1349314581735</created>
+      <updated>1349314581735</updated>
+    </task>
+    <task id="LOCAL-00161" summary="Check route">
+      <created>1349314722447</created>
+      <updated>1349314722447</updated>
+    </task>
+    <task id="LOCAL-00162" summary="Check route">
+      <created>1349314803750</created>
+      <updated>1349314803750</updated>
+    </task>
+    <task id="LOCAL-00163" summary="Check route">
+      <created>1349314994890</created>
+      <updated>1349314994890</updated>
+    </task>
+    <task id="LOCAL-00164" summary="Check route">
+      <created>1349315288494</created>
+      <updated>1349315288494</updated>
+    </task>
+    <task id="LOCAL-00165" summary="Check route">
+      <created>1349315401180</created>
+      <updated>1349315401180</updated>
+    </task>
+    <task id="LOCAL-00166" summary="Check route">
+      <created>1349315780220</created>
+      <updated>1349315780220</updated>
+    </task>
+    <task id="LOCAL-00167" summary="Check route">
+      <created>1349315996903</created>
+      <updated>1349315996903</updated>
+    </task>
+    <task id="LOCAL-00168" summary="Check route">
+      <created>1349316240223</created>
+      <updated>1349316240223</updated>
+    </task>
+    <task id="LOCAL-00169" summary="Check route">
+      <created>1349316681077</created>
+      <updated>1349316681077</updated>
+    </task>
+    <task id="LOCAL-00170" summary="Check route">
+      <created>1349317385262</created>
+      <updated>1349317385262</updated>
+    </task>
+    <task id="LOCAL-00171" summary="Check route">
+      <created>1349491031993</created>
+      <updated>1349491031993</updated>
+    </task>
+    <task id="LOCAL-00172" summary="Check route">
+      <created>1349491208018</created>
+      <updated>1349491208018</updated>
+    </task>
+    <task id="LOCAL-00173" summary="Paragraph style">
+      <created>1349545458873</created>
+      <updated>1349545458873</updated>
+    </task>
+    <task id="LOCAL-00174" summary="Check route">
+      <created>1349545560087</created>
+      <updated>1349545560087</updated>
+    </task>
+    <task id="LOCAL-00175" summary="Check route">
+      <created>1349545625760</created>
+      <updated>1349545625760</updated>
+    </task>
+    <task id="LOCAL-00176" summary="Source control">
+      <created>1349545907101</created>
+      <updated>1349545907101</updated>
+    </task>
+    <task id="LOCAL-00177" summary="Source control">
+      <created>1349546843391</created>
+      <updated>1349546843391</updated>
+    </task>
+    <task id="LOCAL-00178" summary="Check route">
+      <created>1349546954347</created>
+      <updated>1349546954347</updated>
+    </task>
+    <task id="LOCAL-00179" summary="Check route">
+      <created>1349546996159</created>
+      <updated>1349546996159</updated>
+    </task>
+    <task id="LOCAL-00180" summary="Check route">
+      <created>1349557697253</created>
+      <updated>1349557697253</updated>
+    </task>
+    <task id="LOCAL-00181" summary="Check route">
+      <created>1349558053085</created>
+      <updated>1349558053085</updated>
+    </task>
+    <task id="LOCAL-00182" summary="Check route">
+      <created>1349620855893</created>
+      <updated>1349620855893</updated>
+    </task>
+    <task id="LOCAL-00183" summary="Check route">
+      <created>1349620908401</created>
+      <updated>1349620908402</updated>
+    </task>
+    <task id="LOCAL-00184" summary="Check route">
+      <created>1349621881949</created>
+      <updated>1349621881949</updated>
+    </task>
+    <task id="LOCAL-00185" summary="Check route">
+      <created>1349621990789</created>
+      <updated>1349621990789</updated>
+    </task>
+    <task id="LOCAL-00186" summary="Check route">
+      <created>1349622207746</created>
+      <updated>1349622207746</updated>
+    </task>
+    <task id="LOCAL-00187" summary="Check route">
+      <created>1349629766865</created>
+      <updated>1349629766865</updated>
+    </task>
+    <task id="LOCAL-00188" summary="Check route">
+      <created>1349712263132</created>
+      <updated>1349712263133</updated>
+    </task>
+    <task id="LOCAL-00189" summary="Check route">
+      <created>1349712438459</created>
+      <updated>1349712438459</updated>
+    </task>
+    <task id="LOCAL-00190" summary="Check route">
+      <created>1349729951028</created>
+      <updated>1349729951028</updated>
+    </task>
+    <task id="LOCAL-00191" summary="Check route">
+      <created>1349952104189</created>
+      <updated>1349952104189</updated>
+    </task>
+    <task id="LOCAL-00192" summary="Check route">
+      <created>1349952234763</created>
+      <updated>1349952234763</updated>
+    </task>
+    <task id="LOCAL-00193" summary="Check route">
+      <created>1350253019036</created>
+      <updated>1350253019036</updated>
+    </task>
+    <task id="LOCAL-00194" summary="Commissions">
+      <created>1350321520890</created>
+      <updated>1350321520890</updated>
+    </task>
+    <task id="LOCAL-00195" summary="Check route">
+      <created>1350321782884</created>
+      <updated>1350321782884</updated>
+    </task>
+    <task id="LOCAL-00196" summary="Check route">
+      <created>1350325805166</created>
+      <updated>1350325805166</updated>
+    </task>
+    <task id="LOCAL-00197" summary="Check route">
+      <created>1350340905382</created>
+      <updated>1350340905382</updated>
+    </task>
+    <task id="LOCAL-00198" summary="Check route">
+      <created>1350342374695</created>
+      <updated>1350342374696</updated>
+    </task>
+    <task id="LOCAL-00199" summary="Adding UI for Leonid">
+      <created>1350466279784</created>
+      <updated>1350466279784</updated>
+    </task>
+    <task id="LOCAL-00200" summary="Check route">
+      <created>1350472475811</created>
+      <updated>1350472475811</updated>
+    </task>
+    <task id="LOCAL-00201" summary="Check route">
+      <created>1350519524050</created>
+      <updated>1350519524050</updated>
+    </task>
+    <task id="LOCAL-00202" summary="Check route">
+      <created>1350573187622</created>
+      <updated>1350573187623</updated>
+    </task>
+    <task id="LOCAL-00203" summary="Energy">
+      <created>1350644762854</created>
+      <updated>1350644762854</updated>
+    </task>
+    <task id="LOCAL-00204" summary="Health and beauty">
+      <created>1350647633594</created>
+      <updated>1350647633595</updated>
+    </task>
+    <task id="LOCAL-00205" summary="Start latest updates">
+      <created>1350649416573</created>
+      <updated>1350649416573</updated>
+    </task>
+    <task id="LOCAL-00206" summary="Continue latest updates">
+      <created>1350649588830</created>
+      <updated>1350649588830</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2810271" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2810271" sideWeight="0.493517" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.49675852" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32090762" sideWeight="0.7189729" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34927067" sideWeight="0.7189729" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3517018" sideWeight="0.21825963" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2810271" sideWeight="0.5008104" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952926" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -753,7 +1203,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Old tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continue latest updates" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -766,137 +1216,140 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="gs" />
-    <MESSAGE value="d3" />
-    <MESSAGE value="sdfsdf" />
-    <MESSAGE value="3D?" />
-    <MESSAGE value="Nav click?" />
-    <MESSAGE value="Flip to horizontal" />
-    <MESSAGE value="url field check" />
-    <MESSAGE value="Check HTML" />
-    <MESSAGE value="Mini size" />
-    <MESSAGE value="check" />
-    <MESSAGE value="check 2" />
-    <MESSAGE value="Zero margin" />
-    <MESSAGE value="???" />
     <MESSAGE value="cancel" />
     <MESSAGE value="Less width for nodes" />
     <MESSAGE value="Text" />
     <MESSAGE value="Automatic routing???" />
     <MESSAGE value="Old tree" />
+    <MESSAGE value="dsfgdsfg" />
+    <MESSAGE value="Check 0000" />
+    <MESSAGE value="Update please" />
+    <MESSAGE value="Remove automatic pages" />
+    <MESSAGE value="Undo renaming" />
+    <MESSAGE value="Finaly" />
+    <MESSAGE value="Rename date" />
+    <MESSAGE value="Rename date not zero" />
+    <MESSAGE value="Remove Jquery" />
+    <MESSAGE value="CSS" />
+    <MESSAGE value="Comments" />
+    <MESSAGE value="Paragraph style" />
+    <MESSAGE value="Source control" />
+    <MESSAGE value="Commissions" />
+    <MESSAGE value="Adding UI for Leonid" />
+    <MESSAGE value="Check route" />
+    <MESSAGE value="Energy" />
+    <MESSAGE value="Health and beauty" />
+    <MESSAGE value="Start latest updates" />
+    <MESSAGE value="Continue latest updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/style.css">
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/UI/Prototype/Prototype.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="1" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/UI/Devices/Devices.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Web.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="60" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/tree.css">
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/UI/Examples/Examples.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
+        <state line="189" column="56" selection-start="7680" selection-end="7680" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="46" selection-start="35" selection-end="46" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Time/Time.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="36" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Libraries/Maps/Maps.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="103" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Expenses_types/Communication/Communication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="55" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Display/CSS/CSS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="56" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Expenses_types/Energy/Energy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="176" selection-start="238" selection-end="238" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Fitness/Strength/Strength.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="53" selection-start="53" selection-end="53" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Management/Tools/Tools.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="36" selection-start="316" selection-end="316" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Map/Soul/Values/Collaboration/Collaboration.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="141" selection-start="299" selection-end="299" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tree.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="835" column="12" selection-start="27462" selection-end="27462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_plugins/singlepage-jekyll.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="11" selection-start="2660" selection-end="2669" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="17" selection-start="847" selection-end="857" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/archive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="157" selection-end="157" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2011-12-15-jekyll-lesson2.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2011-12-29-jekyll-introduction.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Map/2011-12-29-jekyll-introduction.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="112" selection-end="131" vertical-scroll-proportion="-4.0384617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Map/2011-12-15-jekyll-lesson2.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="410" column="76" selection-start="17588" selection-end="17591" vertical-scroll-proportion="-11.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Map/hahaha/profff.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="410" column="76" selection-start="17592" selection-end="17595" vertical-scroll-proportion="-236.53847">
+        <state line="209" column="31" selection-start="10540" selection-end="10540" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="14" selection-start="5546" selection-end="5546" vertical-scroll-proportion="-6.04">
+        <state line="39" column="71" selection-start="1913" selection-end="1913" vertical-scroll-proportion="-6.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Map/hahaha/2011-12-15-innerpooo.md">
+    <entry file="file://$PROJECT_DIR$/Map/Map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Map/hahaha/2012-09-15-checkYo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
+        <state line="22" column="15" selection-start="459" selection-end="459" vertical-scroll-proportion="0.74880385">
           <folding />
         </state>
       </provider>
