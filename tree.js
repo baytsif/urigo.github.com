@@ -746,94 +746,39 @@ function init(){
                 }]
             }]
         }, {
-            id: "node1130",
-            name: "1.130",
-            data: {},
+            id: "Health_and_beauty",
+            name: "Health and beauty",
+            data: {'url':'#/?urlParam=Health_and_beauty'},
             children: [{
-                id: "node2131",
-                name: "2.131",
-                data: {},
-                children: [{
-                    id: "node3132",
-                    name: "3.132",
-                    data: {},
-                    children: [{
-                        id: "node4133",
-                        name: "4.133",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4134",
-                        name: "4.134",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4135",
-                        name: "4.135",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4136",
-                        name: "4.136",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4137",
-                        name: "4.137",
-                        data: {},
-                        children: []
-                    }]
-                }]
+                id: "Health_and_beauty/Longevity",
+                name: "Longevity",
+                data: {'url':'#/?urlParam=Health_and_beauty/Longevity'},
+                children: []
             }, {
-                id: "node2138",
-                name: "2.138",
-                data: {},
+                id: "Health_and_beauty/Fitness",
+                name: "Fitness",
+                data: {'url':'#/?urlParam=Health_and_beauty/Fitness'},
                 children: [{
-                    id: "node3139",
-                    name: "3.139",
-                    data: {},
-                    children: [{
-                        id: "node4140",
-                        name: "4.140",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4141",
-                        name: "4.141",
-                        data: {},
-                        children: []
-                    }]
+                    id: "Health_and_beauty/Fitness/Running",
+                    name: "Running",
+                    data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Running'},
+                    children: []
                 }, {
-                    id: "node3142",
-                    name: "3.142",
-                    data: {},
-                    children: [{
-                        id: "node4143",
-                        name: "4.143",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4144",
-                        name: "4.144",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4145",
-                        name: "4.145",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4146",
-                        name: "4.146",
-                        data: {},
-                        children: []
-                    }, {
-                        id: "node4147",
-                        name: "4.147",
-                        data: {},
-                        children: []
-                    }]
+                    id: "Health_and_beauty/Fitness/Strength",
+                    name: "Strength",
+                    data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Strength'},
+                    children: []
                 }]
+            },{
+                id: "Health_and_beauty/Information",
+                name: "Information",
+                data: {'url':'#/?urlParam=Health_and_beauty/Information'},
+                children: []
+            },{
+                id: "Health_and_beauty/Nutrition",
+                name: "Nutrition",
+                data: {'url':'#/?urlParam=Health_and_beauty/Nutrition'},
+                children: []
             }]
         }]
     };
