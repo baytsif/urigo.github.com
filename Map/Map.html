@@ -20,4 +20,9 @@ Please start by navigating thorough the map on the top.
 
 <h1>Latest updates</h1>
 
-{{latestUpdates}}
+<div ng-repeat="entry in latestUpdates.entries">
+    <h3>{{entry.publishedDate | date:'medium'}}</h3>
+    <p>{{entry.title}} has changed by {{entry.author}}</p>
+    <p>{{entry.contentSnippet}}</p>
+    <a href="{{entry.link}}">See changes...</a>
+</div>
