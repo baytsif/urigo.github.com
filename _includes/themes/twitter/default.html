@@ -34,7 +34,7 @@
                 $scope.templateUrl = '/Map/Map.html';
 
                   $.ajax({
-                      url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('https://github.com/Urigo/urigo.github.com/commits/master.atom'),
+                      url: encodeURIComponent('https://github.com/Urigo/urigo.github.com/commits/master.atom'),
                       dataType: 'json',
                       success: function(data) {
                           $scope.latestUpdates = data.responseData.feed;
