@@ -237,6 +237,11 @@ function init(){
                         name: "Communication",
                         data: {'url':'#/?urlParam=Money/Savings/Expenses_types/Communication'},
                         children: []
+                    }, {
+                        id: "Money/Savings/Expenses_types/Energy",
+                        name: "Energy",
+                        data: {'url':'#/?urlParam=Money/Savings/Expenses_types/Energy'},
+                        children: []
                     }]
                 }, {
                     id: "node330",
