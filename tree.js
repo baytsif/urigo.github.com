@@ -37,9 +37,9 @@ var Log = {
 function init(){
     //init data
     var json = {
-        id: "node01",
+        id: "Life",
         name: "Life",
-        data: {},
+        data: {'url':''},
         children: [{
             id: "Professionalism_and_education",
             name: "Professionalism and education",
