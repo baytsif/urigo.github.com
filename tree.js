@@ -200,19 +200,14 @@ function init(){
                     }]
                 }]
             }, {
-                id: "node222",
-                name: "2.22",
-                data: {},
+                id: "Professionalism_and_education/Management",
+                name: "Management",
+                data: {'url':'#/?urlParam=Professionalism_and_education/Management'},
                 children: [{
-                    id: "node323",
-                    name: "3.23",
-                    data: {},
-                    children: [{
-                        id: "node424",
-                        name: "4.24",
-                        data: {},
-                        children: []
-                    }]
+                    id: "Professionalism_and_education/Management/Tools",
+                    name: "Tools",
+                    data: {'url':'#/?urlParam=Professionalism_and_education/Management/Tools'},
+                    children: []
                 }]
             }]
         }, {
