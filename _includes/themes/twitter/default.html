@@ -31,14 +31,10 @@
           function pagesCtrl($scope, $routeParams) {
               if ($routeParams.urlParam == undefined)
               {
-                  $.getJSON("http://jsonip.appspot.com?callback=?",
-                          function(data){
-                              $scope.userIP = data.ip;
-                          });
-                    $scope.templateUrl = '/Map/Map.html';
+                $scope.templateUrl = '/Map/Map.html';
 
                   $.ajax({
-                      url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('https://github.com/Urigo/urigo.github.com/commits/master.atom' + '&userip='+ $scope.userIP),
+                      url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('https://github.com/Urigo/urigo.github.com/commits/master.atom'),
                       dataType: 'json',
                       success: function(data) {
                           $scope.latestUpdates = data.responseData.feed;
