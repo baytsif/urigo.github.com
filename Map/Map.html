@@ -20,6 +20,14 @@ Please start by navigating thorough the map on the top.
 
 <h1>Latest updates</h1>
 
-https://github.com/Urigo/urigo.github.com/commits/master.atom
 
-<iframe src="https://github.com/Urigo/urigo.github.com/commit/2deea785117b23896344ad2bb57589aef1320f58"></iframe>
+
+<script type="text/javascript">
+    $.ajax({
+        url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('https://github.com/Urigo/urigo.github.com/commits/master.atom'),
+        dataType: 'json',
+        success: function(data) {
+            alert(JSON.stringify(data.responseData.feed));
+        }
+    });
+</script>
