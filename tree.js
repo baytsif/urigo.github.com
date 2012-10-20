@@ -775,6 +775,51 @@ function init(){
                 data: {'url':'#/?urlParam=Health_and_beauty/Nutrition'},
                 children: []
             }]
+        }, {
+            id: "Soul",
+            name: "Soul",
+            data: {'url':'#/?urlParam=Soul'},
+            children: [{
+                id: "Soul/Values",
+                name: "Values",
+                data: {'url':'#/?urlParam=Soul/Values'},
+                children: [{
+                    id: "Soul/Values/Openness",
+                    name: "Openness",
+                    data: {'url':'#/?urlParam=Soul/Values/Openness'},
+                    children: []
+                },{
+                    id: "Soul/Values/Collaboration",
+                    name: "Collaboration",
+                    data: {'url':'#/?urlParam=Soul/Values/Collaboration'},
+                    children: []
+                }]
+            }, {
+                id: "Health_and_beauty/Fitness",
+                name: "Fitness",
+                data: {'url':'#/?urlParam=Health_and_beauty/Fitness'},
+                children: [{
+                    id: "Health_and_beauty/Fitness/Running",
+                    name: "Running",
+                    data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Running'},
+                    children: []
+                }, {
+                    id: "Health_and_beauty/Fitness/Strength",
+                    name: "Strength",
+                    data: {'url':'#/?urlParam=Health_and_beauty/Fitness/Strength'},
+                    children: []
+                }]
+            },{
+                id: "Health_and_beauty/Information",
+                name: "Information",
+                data: {'url':'#/?urlParam=Health_and_beauty/Information'},
+                children: []
+            },{
+                id: "Health_and_beauty/Nutrition",
+                name: "Nutrition",
+                data: {'url':'#/?urlParam=Health_and_beauty/Nutrition'},
+                children: []
+            }]
         }]
     };
     //end
