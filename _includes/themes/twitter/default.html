@@ -35,9 +35,7 @@
 
           function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams, $http) {
 
-              if ($routeParams.locale == undefined)
-                  $scope.$parent.locale = 'en';
-              else
+              if ($routeParams.locale != undefined)
                   $scope.$parent.locale = $routeParams.locale;
 
               if ($routeParams.urlParam == undefined)
