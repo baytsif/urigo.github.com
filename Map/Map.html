@@ -1,28 +1,34 @@
-<h1>Life's small tutorials blog</h1>
-</br>
+<p ng-show="locale=='en'">
+    <h1>Life's small tutorials blog</h1>
+    </br>
 
-This blog is based on the idea that anyhting that an individual person does, and not sharing it, is a waste of time.
-</br>
+    This blog is based on the idea that anyhting that an individual person does, and not sharing it, is a waste of time.
+    </br>
 
-Why?
+    Why?
 
-</br>
+    </br>
 
-Because of "Collaboration.html" and "Openness.html"
+    Because of "Collaboration.html" and "Openness.html"
 
-</br>
+    </br>
 
-This blog depends on you to share your ideas and thoughts and notes on whatever subjects you fill like sharing..
+    This blog depends on you to share your ideas and thoughts and notes on whatever subjects you fill like sharing..
 
-</br>
+    </br>
 
-Please start by navigating thorough the map on the top.
+    Please start by navigating thorough the map on the top.
 
-<h1>Latest updates</h1>
+    <h1>Latest updates</h1>
 
-<div ng-repeat="entry in latestUpdates.entries">
-    <h3>{{entry.publishedDate | date:'medium'}}</h3>
-    <p>{{entry.title}} has changed by {{entry.author}}</p>
-    <p>{{entry.contentSnippet}}</p>
-    <a href="{{entry.link}}">See changes...</a>
-</div>
+    <div ng-repeat="entry in latestUpdates.entries">
+        <h3>{{entry.publishedDate | date:'medium'}}</h3>
+        <p>{{entry.title}} has changed by {{entry.author}}</p>
+        <p>{{entry.contentSnippet}}</p>
+        <a href="{{entry.link}}">See changes...</a>
+    </div>
+
+</p>
+<p ng-show="locale=='he'">
+    בלוג בעברית
+</p>

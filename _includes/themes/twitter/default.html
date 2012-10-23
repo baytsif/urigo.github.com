@@ -29,6 +29,11 @@
           }]);
 
           function pagesCtrl($scope, $routeParams) {
+              if ($routeParams.locale == undefined)
+                  $scope.locale = 'en';
+              else
+                  $scope.locale = $routeParams.locale;
+
               if ($routeParams.urlParam == undefined)
               {
                 $scope.templateUrl = '/Map/Map.html';
