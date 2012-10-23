@@ -40,7 +40,7 @@
 
                   var url = document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('https://github.com/Urigo/urigo.github.com/commits/master.atom');
                   url = url + '?callback=JSON_CALLBACK';
-                  $http.jsonp(url).success(function(data, status) {
+                  $http.get(url).success(function(data, status) {
                       $scope.latestUpdates = data.responseData.feed;
                       console.log($scope.latestUpdates);
                   }).error(function(data, status) {
