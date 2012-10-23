@@ -28,12 +28,17 @@
               $routeProvider.when('/', {templateUrl: '/categories.html',   controller: pagesCtrl});
           }]);
 
+          function mainCtrl($scope)
+          {
+            $scope.locale = 'en';
+          }
+
           function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams, $http) {
 
               if ($routeParams.locale == undefined)
-                  $scope.locale = 'en';
+                  $scope.$parent.locale = 'en';
               else
-                  $scope.locale = $routeParams.locale;
+                  $scope.$parent.locale = $routeParams.locale;
 
               if ($routeParams.urlParam == undefined)
               {
@@ -60,6 +65,7 @@
                   loadDisqus(currentPageId);
               };
 
+              /*
               $rootScope.$on('$routeChangeStart', function(scope, newRoute){
                   if (!newRoute) return;
                   //Load any required resources here
@@ -71,7 +77,7 @@
                   if ($scope.locale == 'he')
                       $window.location.href = $location.url() + '?locale=he';
                   //$rootScope.templates = newRoute.$route.templates;
-              });
+              });    */
 
               $scope.yes = "yes!";
           }
@@ -97,7 +103,7 @@
       </script>
   </head>
 
-  <body onload="init();">
+  <body onload="init();" ng-controller="mainCtrl">
       <div id='container'>
           <div id='center-container'>
               <div id='infovis'/>
