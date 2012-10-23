@@ -30,16 +30,6 @@
 
           function pagesCtrl($rootScope, $route, $scope, $routeParams, $http) {
 
-              $rootScope.$on('$routeChangeStart', function(scope, newRoute){
-                  if (!newRoute) return;
-                  //Load any required resources here
-                  console.log("Do conditional loading here");
-                  //Set the state bound do the ng-include src attribute
-                  alert(JSON.stringify(newRoute.$route));
-                  //$rootScope.templates = newRoute.$route.templates;
-              });
-
-
               if ($routeParams.locale == undefined)
                   $scope.locale = 'en';
               else
@@ -69,6 +59,16 @@
                   var currentPageId = $scope.templateUrl;
                   loadDisqus(currentPageId);
               };
+
+              $rootScope.$on('$routeChangeStart', function(scope, newRoute){
+                  if (!newRoute) return;
+                  //Load any required resources here
+                  console.log("Do conditional loading here");
+                  //Set the state bound do the ng-include src attribute
+                  alert($scope.locale);
+                  alert(JSON.stringify(newRoute.$route));
+                  //$rootScope.templates = newRoute.$route.templates;
+              });
 
               $scope.yes = "yes!";
           }
