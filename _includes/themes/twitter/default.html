@@ -188,8 +188,9 @@
           <a href="#{{ post.url }}">{{ post.title }}</a>
           {% endfor %}
                -->
-          <button id="israel" ng-click="locale='he'"></button>
-          <button id="US" ng-click="locale='en'"></button>
+          <button id="israel" ng-click="locale='he'" ng-show="locale!='he'">
+              עברית</button>
+          <button id="US" ng-click="locale='en'" ng-show="locale!='en'">English</button>
           <div ng-view></div>
 
 
