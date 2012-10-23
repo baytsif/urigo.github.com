@@ -39,7 +39,7 @@ function init(){
     var json = {
         id: "Life",
         name: "Life",
-        data: {'url':'#/?urlParam=Map'},
+        data: {'url':'#/?urlParam=Life'},
         children: [{
             id: "Professionalism_and_education",
             name: "Professionalism and education",
