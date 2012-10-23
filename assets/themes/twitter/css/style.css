@@ -72,3 +72,11 @@ html, body {
 .content {
     background:url("../images/body_bg.jpg") repeat;
 }
+
+#israel {
+    background:url("../images/israel_256.png");
+}
+
+#US {
+    background: url("../images/usa-flag-icon-12b.gif");
+}

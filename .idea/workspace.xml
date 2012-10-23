@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a2be76c-457d-495e-bdb7-a2455c7b38a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Urigo.iml" afterPath="$PROJECT_DIR$/.idea/Urigo.iml" />
+    <list default="true" id="7a2be76c-457d-495e-bdb7-a2455c7b38a2" name="Default" comment="Apply RSS">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/themes/twitter/images/israel_256.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/themes/twitter/default.html" afterPath="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/themes/twitter/css/style.css" afterPath="$PROJECT_DIR$/assets/themes/twitter/css/style.css" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,15 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Pension.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Money/Savings/Pension/Pension.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="74" selection-start="337" selection-end="337" vertical-scroll-proportion="-6.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Apache.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Server/Apache/Apache.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,7 +48,7 @@
       <file leaf-file-name="Rent.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Map/Home/Rent/Rent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="36" selection-start="121" selection-end="121" vertical-scroll-proportion="-4.375">
+            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -65,14 +57,14 @@
       <file leaf-file-name="tree.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tree.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="826" column="22" selection-start="31858" selection-end="31858" vertical-scroll-proportion="0.0">
+            <state line="41" column="24" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#1579#10581#0" expanded="false" />
-                <element signature="e#10716#17724#0" expanded="false" />
-                <element signature="e#17856#28448#0" expanded="false" />
-                <element signature="e#28619#29908#0" expanded="false" />
-                <element signature="e#30040#31726#0" expanded="false" />
-                <element signature="e#31858#32364#0" expanded="false" />
+                <element signature="e#1581#10583#0" expanded="false" />
+                <element signature="e#10718#17726#0" expanded="false" />
+                <element signature="e#17858#28450#0" expanded="false" />
+                <element signature="e#28621#29910#0" expanded="false" />
+                <element signature="e#30042#31728#0" expanded="false" />
+                <element signature="e#31860#32366#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -90,7 +82,25 @@
       <file leaf-file-name="default.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="20" selection-start="2382" selection-end="2382" vertical-scroll-proportion="0.6052632">
+            <state line="191" column="46" selection-start="7284" selection-end="7284" vertical-scroll-proportion="0.8923445">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="52" selection-start="1570" selection-end="1570" vertical-scroll-proportion="-15.346154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tree.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/tree.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,15 +124,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Education.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Education/Education.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="21" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -136,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/AngularJS/AngularJS.html" />
         <option value="$PROJECT_DIR$/Map/Health_and_beauty/Information/Information.html" />
         <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Display/CSS/CSS.html" />
         <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/Javascript.html" />
@@ -149,8 +149,9 @@
         <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Server/Apache/Apache.html" />
         <option value="$PROJECT_DIR$/Map/Map.html" />
         <option value="$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Tools/Frameworks/Symfony2/Symfony2.html" />
-        <option value="$PROJECT_DIR$/tree.js" />
         <option value="$PROJECT_DIR$/Map/Home/Rent/Rent.html" />
+        <option value="$PROJECT_DIR$/tree.js" />
+        <option value="$PROJECT_DIR$/assets/themes/twitter/css/style.css" />
         <option value="$PROJECT_DIR$/_includes/themes/twitter/default.html" />
       </list>
     </option>
@@ -353,6 +354,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Outdoor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Urigo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Urigo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Urigo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Urigo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1320,7 +1373,59 @@
       <created>1351023546521</created>
       <updated>1351023546522</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="Apply RSS">
+      <created>1351023837467</created>
+      <updated>1351023837468</updated>
+    </task>
+    <task id="LOCAL-00228" summary="Apply RSS">
+      <created>1351024107359</created>
+      <updated>1351024107360</updated>
+    </task>
+    <task id="LOCAL-00229" summary="Apply RSS">
+      <created>1351024812478</created>
+      <updated>1351024812478</updated>
+    </task>
+    <task id="LOCAL-00230" summary="Apply RSS">
+      <created>1351024926752</created>
+      <updated>1351024926753</updated>
+    </task>
+    <task id="LOCAL-00231" summary="Apply RSS">
+      <created>1351025018820</created>
+      <updated>1351025018820</updated>
+    </task>
+    <task id="LOCAL-00232" summary="Apply RSS">
+      <created>1351025394408</created>
+      <updated>1351025394408</updated>
+    </task>
+    <task id="LOCAL-00233" summary="Apply RSS">
+      <created>1351025661791</created>
+      <updated>1351025661792</updated>
+    </task>
+    <task id="LOCAL-00234" summary="Apply RSS">
+      <created>1351025820838</created>
+      <updated>1351025820838</updated>
+    </task>
+    <task id="LOCAL-00235" summary="Apply RSS">
+      <created>1351026859443</created>
+      <updated>1351026859443</updated>
+    </task>
+    <task id="LOCAL-00236" summary="Apply RSS">
+      <created>1351026951663</created>
+      <updated>1351026951663</updated>
+    </task>
+    <task id="LOCAL-00237" summary="Apply RSS">
+      <created>1351027142848</created>
+      <updated>1351027142848</updated>
+    </task>
+    <task id="LOCAL-00238" summary="Apply RSS">
+      <created>1351030764214</created>
+      <updated>1351030764214</updated>
+    </task>
+    <task id="LOCAL-00239" summary="Apply RSS">
+      <created>1351030930992</created>
+      <updated>1351030930992</updated>
+    </task>
+    <option name="localTasksCounter" value="240" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1446,20 +1551,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Map/Health_and_beauty/Information/Information.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="90" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Display/CSS/CSS.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="132" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Map/Professionalism_and_education/Computers/Programming/Web/Languages/Client_side/Javascript/Javascript.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="92" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
@@ -1530,20 +1621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tree.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="826" column="22" selection-start="31858" selection-end="31858" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1579#10581#0" expanded="false" />
-            <element signature="e#10716#17724#0" expanded="false" />
-            <element signature="e#17856#28448#0" expanded="false" />
-            <element signature="e#28619#29908#0" expanded="false" />
-            <element signature="e#30040#31726#0" expanded="false" />
-            <element signature="e#31858#32364#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Map/Map.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="27" selection-start="5" selection-end="27" vertical-scroll-proportion="-0.0">
@@ -1553,14 +1630,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Map/Home/Rent/Rent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="121" selection-end="121" vertical-scroll-proportion="-4.375">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tree.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="24" selection-start="1363" selection-end="1363" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1581#10583#0" expanded="false" />
+            <element signature="e#10718#17726#0" expanded="false" />
+            <element signature="e#17858#28450#0" expanded="false" />
+            <element signature="e#28621#29910#0" expanded="false" />
+            <element signature="e#30042#31728#0" expanded="false" />
+            <element signature="e#31860#32366#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/tree.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/themes/twitter/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="52" selection-start="1570" selection-end="1570" vertical-scroll-proportion="-15.346154">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/themes/twitter/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="20" selection-start="2382" selection-end="2382" vertical-scroll-proportion="0.6052632">
+        <state line="191" column="46" selection-start="7284" selection-end="7284" vertical-scroll-proportion="0.8923445">
           <folding />
         </state>
       </provider>
