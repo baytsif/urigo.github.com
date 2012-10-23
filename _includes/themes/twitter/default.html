@@ -28,7 +28,7 @@
               $routeProvider.when('/', {templateUrl: '/categories.html',   controller: pagesCtrl});
           }]);
 
-          function pagesCtrl($location, $rootScope, $route, $scope, $routeParams, $http) {
+          function pagesCtrl($window, $location, $rootScope, $route, $scope, $routeParams, $http) {
 
               if ($routeParams.locale == undefined)
                   $scope.locale = 'en';
@@ -64,12 +64,12 @@
                   if (!newRoute) return;
                   //Load any required resources here
                   console.log("Do conditional loading here");
-                  alert($location.path());
+                  alert($location.url());
                   alert($scope.locale);
                   alert(JSON.stringify(newRoute.$route));
 
                   if ($scope.locale == 'he')
-                      $window.location.href = $location.path() + '?locale=he';
+                      $window.location.href = $location.url() + '?locale=he';
                   //$rootScope.templates = newRoute.$route.templates;
               });
 
