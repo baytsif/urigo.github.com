@@ -28,7 +28,7 @@
               $routeProvider.when('/', {templateUrl: '/categories.html',   controller: pagesCtrl});
           }]);
 
-          function pagesCtrl($scope, $routeParams) {
+          function pagesCtrl($scope, $routeParams, $http) {
               if ($routeParams.locale == undefined)
                   $scope.locale = 'en';
               else
@@ -38,6 +38,17 @@
               {
                 $scope.templateUrl = '/Map/Map.html';
 
+                  var url = document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('https://github.com/Urigo/urigo.github.com/commits/master.atom');
+                  url = url + '?callback=JSON_CALLBACK';
+                  $http.jsonp(url).success(function(data, status) {
+                      $scope.latestUpdates = data.responseData.feed;
+                      console.log($scope.latestUpdates);
+                  }).error(function(data, status) {
+                              alert('error');
+                              alert(JSON.stringify(data));
+                          });
+
+                  /*
                   $.ajax({
                       url: document.location.protocol + '//ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent('https://github.com/Urigo/urigo.github.com/commits/master.atom'),
                       dataType: 'json',
@@ -46,8 +57,8 @@
                           $scope.apply();
                       }
                   });
-
                   console.log($scope.latestUpdates);
+                    */
 
 
 
