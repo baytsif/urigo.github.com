@@ -75,6 +75,16 @@ function init(){
                                 name: "Performance",
                                 data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Tools/Performance'},
                                 children: []
+                            },{
+                                id: "Professionalism_and_education/Computers/Programming/Web/Tools/Libraries",
+                                name: "Libraries",
+                                data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Tools/Libraries'},
+                                children: [{
+                                    id: "Professionalism_and_education/Computers/Programming/Web/Tools/Libraries/Maps",
+                                    name: "Maps",
+                                    data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Tools/Libraries/Maps'},
+                                    children: []
+                                }]
                             }]
                         },{
                             id: "Professionalism_and_education/Computers/Programming/Web/Languages",
