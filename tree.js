@@ -85,6 +85,21 @@ function init(){
                                     data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Tools/Libraries/Maps'},
                                     children: []
                                 }]
+                            },{
+                                id: "Professionalism_and_education/Computers/Programming/Web/Tools/Frameworks",
+                                name: "Frameworks",
+                                data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Tools/Frameworks'},
+                                children: [{
+                                    id: "Professionalism_and_education/Computers/Programming/Web/Tools/Libraries/Frameworks/Symfony2",
+                                    name: "Symfony2",
+                                    data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Tools/Frameworks/Symfony2'},
+                                    children: []
+                                },{
+                                    id: "Professionalism_and_education/Computers/Programming/Web/Tools/Libraries/Frameworks/Yeoman",
+                                    name: "Yeoman",
+                                    data: {'url':'#/?urlParam=Professionalism_and_education/Computers/Programming/Web/Tools/Frameworks/Yeoman'},
+                                    children: []
+                                }]
                             }]
                         },{
                             id: "Professionalism_and_education/Computers/Programming/Web/Languages",
